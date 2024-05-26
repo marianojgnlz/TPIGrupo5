@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>TPIGrupo5</Name>
-    <LastWriteTime>2024-05-08T18:41:26.6717451Z</LastWriteTime>
+    <LastWriteTime>2024-05-26T22:09:51.6287264Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>Package.dtsx</Name>
-      <LastWriteTime>2024-05-08T18:41:26.6568269Z</LastWriteTime>
+      <Name>CargaDePaises.dtsx</Name>
+      <LastWriteTime>2024-05-26T22:12:02.3267192Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
