@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Carga de Cosas"
   DTS:PackageType="5"
-  DTS:VersionBuild="145"
-  DTS:VersionGUID="{957937D0-3624-4D20-9440-DD3120ED21DF}">
+  DTS:VersionBuild="157"
+  DTS:VersionGUID="{848235DD-C3C0-42D2-9BF8-A26D5477D6FC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Administrator\Downloads\2024\2024\canales.csv">
+          DTS:ConnectionString="C:\Users\Administrator\Downloads\2024\canales.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Operatoria"
-              DTS:DTSID="{6EA264F5-779E-41B0-81F8-9ACA75D534AD}"
+              DTS:DTSID="{E2ADD170-184F-4953-A166-831DE611508E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Canal"
-              DTS:DTSID="{453A1CCF-94E2-4140-A88E-49F1C556A617}"
+              DTS:DTSID="{A6546944-F291-41B2-9BAF-3F0EA010D5DA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Desc_Canal"
-              DTS:DTSID="{828CD7F1-A534-4BAB-9043-7E27613905BF}"
+              DTS:DTSID="{C1B024BB-A77B-4CE8-B1A7-1237F8BC1024}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -639,7 +639,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Administrator\Downloads\2024\2024\Operaciones.csv">
+          DTS:ConnectionString="C:\Users\Administrator\Downloads\2024\Operaciones.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -648,7 +648,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Operatoria"
-              DTS:DTSID="{3D7D5C49-9244-490A-B242-04E51A985B47}"
+              DTS:DTSID="{BCF0A47D-5F6A-4796-B0B4-242129458AD9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -657,7 +657,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Operacion"
-              DTS:DTSID="{798F80F9-37FE-456A-B5CC-F8E723F76C9C}"
+              DTS:DTSID="{04B2767E-AEF4-4FEE-B377-1AB0F1B37257}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -666,7 +666,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Desc_Operacion"
-              DTS:DTSID="{258AEF80-300E-4A04-BDA2-AE55EEAD301A}"
+              DTS:DTSID="{CBC75D4F-A5A8-43E0-994E-B1A090FD356A}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -696,34 +696,34 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{00E222DD-F0B6-438C-A4B8-24530320D532}"
+              DTS:DTSID="{7B85B8B2-15B0-4A55-96BA-506BD3207D04}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="PAIS_NAC"
-              DTS:DTSID="{AC936626-8A9D-4797-8E24-CE78AD9AF62E}"
+              DTS:DTSID="{0C082F36-769D-4487-B563-E503F5792048}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="GENTILICIO_NAC"
-              DTS:DTSID="{0D2ADCE1-662A-4C6D-AA32-E8B6F6B714AF}"
+              DTS:DTSID="{FE2BFA0F-05FE-4F93-9603-06BF15A32825}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ISO_NAC"
-              DTS:DTSID="{FD9FD830-3F1B-4B3F-B078-FF1061CA8204}"
+              DTS:DTSID="{AB519822-6F80-4860-85FB-9C3497D365A2}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -762,6 +762,59 @@
               DTS:TextQualified="True"
               DTS:ObjectName="provincia"
               DTS:DTSID="{3773F70F-6DD3-4AC3-9FA0-2B36F5D10E18}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Salida mala]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{27AF0E2B-AA20-4B92-B614-07EF72FCE609}"
+      DTS:ObjectName="Salida mala">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Administrator\Downloads\2024\hola.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="codprov"
+              DTS:DTSID="{C53B9F38-3837-4B99-B966-586919E6B482}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="provincia"
+              DTS:DTSID="{22A970A3-86E1-4885-876D-21C0E67AF86B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{472B1896-D03B-4C51-A306-1A43B2CA6614}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{26167248-8466-41F4-900F-E1749AC3F63B}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1611,12 +1664,25 @@
                   <inputColumns>
                     <inputColumn
                       refId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].Columns[PAIS_NAC]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
+                      cachedDataType="wstr"
+                      cachedLength="255"
                       cachedName="PAIS_NAC"
                       externalMetadataColumnId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].ExternalColumns[pais_nac]"
                       lineageId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[PAIS_NAC]" />
+                    <inputColumn
+                      refId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].Columns[GENTILICIO_NAC]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="GENTILICIO_NAC"
+                      externalMetadataColumnId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].ExternalColumns[gentilicio]"
+                      lineageId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[GENTILICIO_NAC]" />
+                    <inputColumn
+                      refId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].Columns[ISO_NAC]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="ISO_NAC"
+                      externalMetadataColumnId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].ExternalColumns[iso]"
+                      lineageId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[ISO_NAC]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1626,16 +1692,19 @@
                       name="id_pais" />
                     <externalMetadataColumn
                       refId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].ExternalColumns[pais_nac]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="wstr"
+                      length="255"
                       name="pais_nac" />
                     <externalMetadataColumn
                       refId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].ExternalColumns[gentilicio]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="wstr"
+                      length="255"
                       name="gentilicio" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].ExternalColumns[iso]"
+                      dataType="wstr"
+                      length="255"
+                      name="iso" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1719,12 +1788,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[PAIS_NAC]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].ExternalColumns[PAIS_NAC]"
-                      length="50"
+                      length="255"
                       lineageId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[PAIS_NAC]"
                       name="PAIS_NAC"
                       truncationRowDisposition="FailComponent">
@@ -1741,12 +1809,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[GENTILICIO_NAC]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].ExternalColumns[GENTILICIO_NAC]"
-                      length="50"
+                      length="255"
                       lineageId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[GENTILICIO_NAC]"
                       name="GENTILICIO_NAC"
                       truncationRowDisposition="FailComponent">
@@ -1763,12 +1830,11 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[ISO_NAC]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].ExternalColumns[ISO_NAC]"
-                      length="50"
+                      length="255"
                       lineageId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[ISO_NAC]"
                       name="ISO_NAC"
                       truncationRowDisposition="FailComponent">
@@ -1794,21 +1860,18 @@
                       name="id" />
                     <externalMetadataColumn
                       refId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].ExternalColumns[PAIS_NAC]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="wstr"
+                      length="255"
                       name="PAIS_NAC" />
                     <externalMetadataColumn
                       refId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].ExternalColumns[GENTILICIO_NAC]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="wstr"
+                      length="255"
                       name="GENTILICIO_NAC" />
                     <externalMetadataColumn
                       refId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].ExternalColumns[ISO_NAC]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="wstr"
+                      length="255"
                       name="ISO_NAC" />
                   </externalMetadataColumns>
                 </output>
@@ -1876,6 +1939,93 @@
         <pipeline
           version="1">
           <components>
+            <component
+              refId="Package\Carga de Provincias\Flat File Destination"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Flat File Destination"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga de Provincias\Flat File Destination.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Salida mala]"
+                  connectionManagerRefId="Package.ConnectionManagers[Salida mala]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].Columns[codprov]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="codprov"
+                      externalMetadataColumnId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[codprov]"
+                      lineageId="Package\Carga de Provincias\Flat File Source.Outputs[Flat File Source Output].Columns[codprov]" />
+                    <inputColumn
+                      refId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].Columns[provincia]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="provincia"
+                      externalMetadataColumnId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[provincia]"
+                      lineageId="Package\Carga de Provincias\Flat File Source.Outputs[Flat File Source Output].Columns[provincia]" />
+                    <inputColumn
+                      refId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      lineageId="Package\Carga de Provincias\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\Carga de Provincias\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[codprov]"
+                      dataType="wstr"
+                      length="255"
+                      name="codprov" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[provincia]"
+                      dataType="wstr"
+                      length="255"
+                      name="provincia" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
             <component
               refId="Package\Carga de Provincias\Flat File Source"
               componentClassID="Microsoft.FlatFileSource"
@@ -2098,7 +2248,7 @@ where [refTable].[nombre_provincia] = ?</property>
                 <output
                   refId="Package\Carga de Provincias\Lookup.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
-                  errorRowDisposition="FailComponent"
+                  errorRowDisposition="RedirectRow"
                   exclusionGroup="1"
                   name="Lookup Match Output"
                   synchronousInputId="Package\Carga de Provincias\Lookup.Inputs[Lookup Input]">
@@ -2464,6 +2614,11 @@ where [refTable].[iso] = ?</property>
               name="Flat File Source Output"
               startId="Package\Carga de Provincias\Flat File Source.Outputs[Flat File Source Output]" />
             <path
+              refId="Package\Carga de Provincias.Paths[Lookup Error Output]"
+              endId="Package\Carga de Provincias\Flat File Destination.Inputs[Flat File Destination Input]"
+              name="Lookup Error Output"
+              startId="Package\Carga de Provincias\Lookup.Outputs[Lookup Error Output]" />
+            <path
               refId="Package\Carga de Provincias.Paths[Lookup Match Output]"
               endId="Package\Carga de Provincias\Lookup 1.Inputs[Lookup Input]"
               name="Lookup Match Output"
@@ -2513,7 +2668,7 @@ where [refTable].[iso] = ?</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{B30C2BF0-A12C-4498-B470-A5316F3389EF}"
-          SQLTask:SqlStatementSource="use tpi;&#xA;Delete Dim_Canal;&#xA;Delete Dim_Pais&#xA;Delete Dim_Operacion;&#xA;Delete Dim_Tiempo;&#xA;Delete Dim_Provincia"
+          SQLTask:SqlStatementSource="use tpi;&#xA;Delete Dim_Canal;&#xA;Delete Dim_Pais&#xA;Delete Dim_Operacion;&#xA;Delete Dim_Tiempo;&#xA;"
           SQLTask:ServerVersion="9"
           SQLTask:ExtendedLogging="True"
           SQLTask:LocalConnectionForLogging=""
@@ -2564,6 +2719,10 @@ where [refTable].[iso] = ?</property>
           Size="150,42"
           Id="Package\Carga de cosas"
           TopLeft="54,264" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Carga de Provincias"
+          TopLeft="48,370" />
         <NodeLayout
           Size="145,42"
           Id="Package\Carga Tiempo"
@@ -2616,10 +2775,6 @@ where [refTable].[iso] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Carga de Provincias"
-          TopLeft="48,370" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
           TopLeft="131.25,306">
@@ -2798,11 +2953,7 @@ where [refTable].[iso] = ?</property>
     design-time-name="Package\Carga de Provincias">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="151,42"
-          Id="Package\Carga de Provincias\Flat File Source"
-          TopLeft="60,60" />
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="113,42"
           Id="Package\Carga de Provincias\Lookup"
@@ -2810,11 +2961,75 @@ where [refTable].[iso] = ?</property>
         <NodeLayout
           Size="122,42"
           Id="Package\Carga de Provincias\Lookup 1"
-          TopLeft="73,267" />
+          TopLeft="63,420" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Carga de Provincias\Flat File Source"
+          TopLeft="60,60" />
         <NodeLayout
           Size="171,42"
           Id="Package\Carga de Provincias\OLE DB Destination"
-          TopLeft="317,269" />
+          TopLeft="307,422" />
+        <EdgeLayout
+          Id="Package\Carga de Provincias.Paths[Lookup Match Output1]"
+          TopLeft="185,442">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="122,0"
+              Start="0,0"
+              End="114.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="114.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0.189960937499997,5,114.120078125,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga de Provincias.Paths[Lookup Match Output]"
+          TopLeft="135.5,213">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-11.5,207"
+              Start="0,0"
+              End="-11.5,199.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,99.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,99.5"
+                    Point2="0,103.5"
+                    Point3="-4,103.5" />
+                  <mssgle:LineSegment
+                    End="-7.5,103.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-7.5,103.5"
+                    Point2="-11.5,103.5"
+                    Point3="-11.5,107.5" />
+                  <mssgle:LineSegment
+                    End="-11.5,199.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-53.94138671875,108.5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga de Provincias.Paths[Flat File Source Output]"
           TopLeft="135.5,102">
@@ -2837,56 +3052,71 @@ where [refTable].[iso] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Carga de Provincias\Flat File Destination"
+          TopLeft="274,259" />
         <EdgeLayout
-          Id="Package\Carga de Provincias.Paths[Lookup Match Output]"
-          TopLeft="134.75,213">
+          Id="Package\Carga de Provincias.Paths[Lookup Error Output]"
+          TopLeft="153,213">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,54"
+              EndConnector="207,46"
               Start="0,0"
-              End="0,46.5">
+              End="207,38.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,46.5" />
+                    End="0,14.7853403141361" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.7853403141361"
+                    Point2="0,18.7853403141361"
+                    Point3="4,18.7853403141361" />
+                  <mssgle:LineSegment
+                    End="203,18.7853403141361" />
+                  <mssgle:CubicBezierSegment
+                    Point1="203,18.7853403141361"
+                    Point2="207,18.7853403141361"
+                    Point3="207,22.7853403141361" />
+                  <mssgle:LineSegment
+                    End="207,38.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,17.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga de Provincias.Paths[Lookup Match Output1]"
-          TopLeft="195,289">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="122,0"
-              Start="0,0"
-              End="114.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="114.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="9.05861328125,5,96.3827734375,11.609375"
+              BoundingBox="57.63361328125,23.7853403141361,91.7327734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga de Provincias\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DatosGeograficos]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">1</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
