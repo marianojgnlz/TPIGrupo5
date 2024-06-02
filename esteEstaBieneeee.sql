@@ -23,7 +23,6 @@
  * TABLE: Dim_Canal 
 
  */
- 
 
 use tpi;
 
@@ -77,15 +76,11 @@ CREATE TABLE Dim_Ciudad(
 
     id_pais         int            NOT NULL,
 
-    localidad       nvarchar(255)    NOT NULL,
-
-    cod_postal      int            NOT NULL,
-
-    partido         nvarchar(255)    NOT NULL,
-
-    cod_partido     int            NOT NULL,
+    nombre       nvarchar(255)    NOT NULL,
 
     poblacion       int            NOT NULL,
+
+	codpostal       int            NOT NULL,
 
     CONSTRAINT PK17 PRIMARY KEY NONCLUSTERED (id_ciudad, id_provincia, id_pais)
 
@@ -305,8 +300,6 @@ CREATE TABLE Dim_Pais(
     id_pais       int            IDENTITY(1,1),
 
     pais_nac      nvarchar(255)    NOT NULL,
-
-    gentilicio    nvarchar(255)    NOT NULL,
 
 	iso    nvarchar(255)    NOT NULL,
 
