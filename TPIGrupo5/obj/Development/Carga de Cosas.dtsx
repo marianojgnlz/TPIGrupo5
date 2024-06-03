@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Carga de Cosas"
   DTS:PackageType="5"
-  DTS:VersionBuild="131"
-  DTS:VersionGUID="{F91222F4-F956-414A-8BFA-579E9A63C42E}">
+  DTS:VersionBuild="156"
+  DTS:VersionGUID="{D85BC306-BD01-4114-8A1C-97F19FD59146}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,34 +30,43 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Administrator\Downloads\2024\2024\canales.csv">
+          DTS:ConnectionString="C:\Users\Administrator\Downloads\canales_modif - Hoja 1 (2).csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Operatoria"
-              DTS:DTSID="{6EA264F5-779E-41B0-81F8-9ACA75D534AD}"
+              DTS:DTSID="{1E3EF3D2-5D8E-44A3-957D-A35A4EB52168}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
-              DTS:MaximumWidth="10"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ID_Canal"
-              DTS:DTSID="{453A1CCF-94E2-4140-A88E-49F1C556A617}"
+              DTS:DTSID="{0D072BC9-A901-42B9-992B-7F8D3DD387DA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Desc_Canal"
+              DTS:DTSID="{B331BCE0-00E9-44C4-BA6B-FFF5C711DBF3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="255"
+              DTS:MaximumWidth="50"
               DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="Desc_Canal"
-              DTS:DTSID="{828CD7F1-A534-4BAB-9043-7E27613905BF}"
+              DTS:ObjectName="Tipo_Medio"
+              DTS:DTSID="{014502DD-801E-4534-B743-C792250754FF}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -366,125 +375,6 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Datos geograficos Connection Manager 1]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{98ABAFC9-17D3-4F83-9CA9-3C8BC726D77A}"
-      DTS:ObjectName="Datos geograficos Connection Manager 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1033"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\Administrator\Downloads\datosgeograficos (1).csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="city"
-              DTS:DTSID="{77478EBD-2CBF-404A-B95A-45ABEF87F6F2}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="city_ascii"
-              DTS:DTSID="{FD4A4BB0-702D-4704-B8B0-7CD67E947FC2}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="lat"
-              DTS:DTSID="{AF1A006C-87B4-4790-966A-71F2577C5330}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="lng"
-              DTS:DTSID="{FD297395-F7A8-4E83-9AFA-D5F5390B09B9}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="country"
-              DTS:DTSID="{90911936-7ED1-4490-8F69-2770EC269777}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="iso2"
-              DTS:DTSID="{51FE4562-AB8E-4949-B9AC-7F50FAAD0025}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="iso3"
-              DTS:DTSID="{BED0568E-70AC-42F4-8295-A99470B11C38}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="admin_name"
-              DTS:DTSID="{A7D4FAC3-234D-43A3-A22A-7F01C2E8CC46}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="capital"
-              DTS:DTSID="{5957E812-30BF-45F0-862E-F5D62D2B06A1}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="population"
-              DTS:DTSID="{7AA6DE07-2195-4236-8782-52ACBBA29153}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="id"
-              DTS:DTSID="{09FBF423-F06A-4F11-985A-23A7A1CAA410}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
       DTS:CreationName="EXCEL"
       DTS:DTSID="{AB6E46A4-7164-48C5-B7C2-A1855DAA7B8B}"
@@ -610,6 +500,168 @@
               DTS:TextQualified="True"
               DTS:ObjectName="id"
               DTS:DTSID="{8C38767B-6E6B-4BD7-A1DD-4EFB814702A1}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{7A326890-0B85-4D0F-9F07-0F748BCA0FAA}"
+      DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Administrator\Downloads\error.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="302"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Flat File Source Error Output Column"
+              DTS:DTSID="{2D62990C-B369-4A0A-B351-E3F9FA94DD28}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{5A7AD65F-67EE-441D-A3DB-6FCFF79A926D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{8B24EE47-472D-4048-953D-5A7D24145476}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[geografia Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{A33C2943-3377-40A3-9732-5FBF3D40F464}"
+      DTS:ObjectName="geografia Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Administrator\Downloads\geograficos.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="city"
+              DTS:DTSID="{88DDE459-9255-48C0-A6EA-AF96B39A1E54}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="city_ascii"
+              DTS:DTSID="{82CBEC36-206C-4E2C-A094-41CD9F043489}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="lat"
+              DTS:DTSID="{7DEDB4C4-85A3-4ABA-B2F9-D0A5F7713E32}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="lng"
+              DTS:DTSID="{5974A713-7F76-4AFC-92A0-8E8F81E65102}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="country"
+              DTS:DTSID="{EEFD8C61-0A90-4C10-8DC4-8760E73014F9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="iso2"
+              DTS:DTSID="{3FFF4D9F-841B-4DA8-8B58-F564BECF564B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="iso3"
+              DTS:DTSID="{C5C609C6-549A-40D7-AAE7-7122AB5D4EB8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Å abac"
+              DTS:DTSID="{393100FB-07BE-4FA6-9AB0-76BE9139532A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="capital"
+              DTS:DTSID="{6C0581BE-9E8D-4B05-95A5-3B89F56B282B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="population"
+              DTS:DTSID="{A3B585D0-7423-4B80-B55D-487236C9DD7F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="id"
+              DTS:DTSID="{8ECE188C-7EFF-455D-8894-5BB88D45578E}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -761,6 +813,43 @@
               DTS:TextQualified="True"
               DTS:ObjectName="ISO_NAC"
               DTS:DTSID="{77B35601-9BA9-42C2-BB7F-351BF8D4F178}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Provinciasv2 Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{CF830F3C-E75A-4BCB-A037-DD3C81038EB0}"
+      DTS:ObjectName="Provinciasv2 Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Administrator\Downloads\Provinciasv2.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="provincia"
+              DTS:DTSID="{C873E3E6-F2FF-4688-9C3D-E2386F00F9F0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="id_pais"
+              DTS:DTSID="{EF5DEBAF-CC85-49F9-B386-9C603F61F62A}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1035,34 +1124,46 @@
                     <inputColumn
                       refId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].Columns[ID_Canal]"
                       cachedDataType="wstr"
-                      cachedLength="10"
+                      cachedLength="50"
                       cachedName="ID_Canal"
                       externalMetadataColumnId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].ExternalColumns[id_canal]"
                       lineageId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].Columns[ID_Canal]" />
                     <inputColumn
                       refId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].Columns[Desc_Canal]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="50"
                       cachedName="Desc_Canal"
                       externalMetadataColumnId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].ExternalColumns[descripcion]"
                       lineageId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].Columns[Desc_Canal]" />
+                    <inputColumn
+                      refId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].Columns[Tipo_Medio]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Tipo_Medio"
+                      externalMetadataColumnId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].ExternalColumns[medio]"
+                      lineageId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].Columns[Tipo_Medio]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                      dataType="i4"
+                      name="id" />
                     <externalMetadataColumn
                       refId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].ExternalColumns[id_canal]"
                       dataType="wstr"
                       length="255"
                       name="id_canal" />
                     <externalMetadataColumn
-                      refId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].ExternalColumns[id]"
-                      dataType="i4"
-                      name="id" />
-                    <externalMetadataColumn
                       refId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].ExternalColumns[descripcion]"
                       dataType="wstr"
                       length="255"
                       name="descripcion" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input].ExternalColumns[medio]"
+                      dataType="wstr"
+                      length="50"
+                      name="medio" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1127,12 +1228,12 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].ExternalColumns[ID_Operatoria]"
                       length="50"
                       lineageId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].Columns[ID_Operatoria]"
                       name="ID_Operatoria"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1148,12 +1249,12 @@
                       refId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].Columns[ID_Canal]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].ExternalColumns[ID_Canal]"
-                      length="10"
+                      length="50"
                       lineageId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].Columns[ID_Canal]"
                       name="ID_Canal"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1169,12 +1270,33 @@
                       refId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].Columns[Desc_Canal]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].ExternalColumns[Desc_Canal]"
-                      length="255"
+                      length="50"
                       lineageId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].Columns[Desc_Canal]"
                       name="Desc_Canal"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].Columns[Tipo_Medio]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="RedirectRow"
+                      externalMetadataColumnId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].ExternalColumns[Tipo_Medio]"
+                      length="50"
+                      lineageId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].Columns[Tipo_Medio]"
+                      name="Tipo_Medio"
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1198,13 +1320,18 @@
                     <externalMetadataColumn
                       refId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].ExternalColumns[ID_Canal]"
                       dataType="wstr"
-                      length="10"
+                      length="50"
                       name="ID_Canal" />
                     <externalMetadataColumn
                       refId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].ExternalColumns[Desc_Canal]"
                       dataType="wstr"
-                      length="255"
+                      length="50"
                       name="Desc_Canal" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output].ExternalColumns[Tipo_Medio]"
+                      dataType="wstr"
+                      length="50"
+                      name="Tipo_Medio" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -1235,6 +1362,81 @@
                   <externalMetadataColumns />
                 </output>
               </outputs>
+            </component>
+            <component
+              refId="Package\Carga de cosas\Flat File Destination"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Flat File Destination"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga de cosas\Flat File Destination.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input].Columns[Flat File Source Error Output Column]"
+                      cachedCodepage="1252"
+                      cachedDataType="text"
+                      cachedName="Flat File Source Error Output Column"
+                      externalMetadataColumnId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Flat File Source Error Output Column]"
+                      lineageId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]" />
+                    <inputColumn
+                      refId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      lineageId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      name="Flat File Source Error Output Column" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
             </component>
             <component
               refId="Package\Carga de cosas\Operaciones"
@@ -1592,6 +1794,14 @@
                       cachedName="PAIS_NAC"
                       externalMetadataColumnId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].ExternalColumns[pais_nac]"
                       lineageId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[PAIS_NAC]" />
+                    <inputColumn
+                      refId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].Columns[ISO_NAC]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ISO_NAC"
+                      externalMetadataColumnId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input].ExternalColumns[ISO_NAC]"
+                      lineageId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output].Columns[ISO_NAC]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1819,20 +2029,25 @@
           </components>
           <paths>
             <path
-              refId="Package\Carga de cosas.Paths[Flat File Source Output]"
-              endId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input]"
-              name="Flat File Source Output"
-              startId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output]" />
+              refId="Package\Carga de cosas.Paths[Flat File Source Error Output]"
+              endId="Package\Carga de cosas\Flat File Destination.Inputs[Flat File Destination Input]"
+              name="Flat File Source Error Output"
+              startId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Error Output]" />
             <path
-              refId="Package\Carga de cosas.Paths[Flat File Source Output1]"
+              refId="Package\Carga de cosas.Paths[Flat File Source Output]"
               endId="Package\Carga de cosas\Operaciones.Inputs[OLE DB Destination Input]"
               name="Flat File Source Output"
               startId="Package\Carga de cosas\Operaciones Source.Outputs[Flat File Source Output]" />
             <path
-              refId="Package\Carga de cosas.Paths[Flat File Source Output2]"
+              refId="Package\Carga de cosas.Paths[Flat File Source Output1]"
               endId="Package\Carga de cosas\Paises.Inputs[OLE DB Destination Input]"
               name="Flat File Source Output"
               startId="Package\Carga de cosas\Paises Source.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Carga de cosas.Paths[Flat File Source Output2]"
+              endId="Package\Carga de cosas\Canal.Inputs[OLE DB Destination Input]"
+              name="Flat File Source Output"
+              startId="Package\Carga de cosas\Canal Source.Outputs[Flat File Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -4278,6 +4493,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       DTS:refId="Package\Provincia"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{4893B24D-E17E-482F-A39D-C7025DFA10FD}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4506,12 +4722,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       cachedSortKeyPosition="1"
                       lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[iso3]" />
                     <inputColumn
-                      refId="Package\Provincia\Merge Join.Inputs[Merge Join Left Input].Columns[admin_name]"
+                      refId="Package\Provincia\Merge Join.Inputs[Merge Join Left Input].Columns[Å abac]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="admin_name"
-                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[admin_name]" />
+                      cachedName="Å abac"
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[Å abac]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -4545,27 +4761,27 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   name="Merge Join Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[provincia]"
+                      refId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[Å abac]"
                       codePage="65001"
                       dataType="str"
                       length="50"
-                      lineageId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[provincia]"
-                      name="provincia">
+                      lineageId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[Å abac]"
+                      name="Å abac">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Provincia\Merge Join.Inputs[Merge Join Left Input].Columns[admin_name]}</property>
+                          name="InputColumnID">#{Package\Provincia\Merge Join.Inputs[Merge Join Left Input].Columns[Å abac]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[id_pais]"
+                      refId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[id]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      lineageId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[id_pais]"
-                      name="id_pais">
+                      lineageId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[id]"
+                      name="id">
                       <properties>
                         <property
                           containsID="true"
@@ -4653,21 +4869,21 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Provincia\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[provincia]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="provincia"
-                      externalMetadataColumnId="Package\Provincia\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[provincia]"
-                      lineageId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[provincia]" />
-                    <inputColumn
-                      refId="Package\Provincia\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[id_pais]"
+                      refId="Package\Provincia\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[id]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="id_pais"
+                      cachedName="id"
                       externalMetadataColumnId="Package\Provincia\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[id_pais]"
-                      lineageId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[id_pais]" />
+                      lineageId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[id]" />
+                    <inputColumn
+                      refId="Package\Provincia\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Å abac]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Å abac"
+                      externalMetadataColumnId="Package\Provincia\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[provincia]"
+                      lineageId="Package\Provincia\Merge Join.Outputs[Merge Join Output].Columns[Å abac]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4735,8 +4951,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               <connections>
                 <connection
                   refId="Package\Provincia\Provincias Arg.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Datos geograficos Connection Manager 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[Datos geograficos Connection Manager 1]"
+                  connectionManagerID="Package.ConnectionManagers[geografia Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[geografia Connection Manager]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -4767,15 +4983,213 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[admin_name]"
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[city]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[admin_name]"
+                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[city]"
                       length="50"
-                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[admin_name]"
-                      name="admin_name"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[city]"
+                      name="city"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[city_ascii]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[city_ascii]"
+                      length="50"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[city_ascii]"
+                      name="city_ascii"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[lat]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[lat]"
+                      length="50"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[lat]"
+                      name="lat"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[lng]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[lng]"
+                      length="50"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[lng]"
+                      name="lng"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[country]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[country]"
+                      length="50"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[country]"
+                      name="country"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[iso2]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[iso2]"
+                      length="50"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[iso2]"
+                      name="iso2"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[capital]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[capital]"
+                      length="50"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[capital]"
+                      name="capital"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[population]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[population]"
+                      length="50"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[population]"
+                      name="population"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[id]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[id]"
+                      length="50"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[id]"
+                      name="id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[Å abac]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[Å abac]"
+                      length="50"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[Å abac]"
+                      name="Å abac"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -4834,12 +5248,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       length="50"
                       name="iso3" />
                     <externalMetadataColumn
-                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[admin_name]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="admin_name" />
-                    <externalMetadataColumn
                       refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[capital]"
                       codePage="65001"
                       dataType="str"
@@ -4857,6 +5265,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       dataType="str"
                       length="50"
                       name="id" />
+                    <externalMetadataColumn
+                      refId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].ExternalColumns[Å abac]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Å abac" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -4930,12 +5344,174 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[admin_name]"
+                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[city]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="admin_name"
-                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[admin_name]">
+                      cachedName="city"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[city]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[city_ascii]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="city_ascii"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[city_ascii]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[lat]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="lat"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[lat]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[lng]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="lng"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[lng]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[country]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="country"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[country]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[iso2]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="iso2"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[iso2]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[capital]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="capital"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[capital]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[population]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="population"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[population]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[id]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="id"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Provincia\Sort.Inputs[Sort Input].Columns[Å abac]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Å abac"
+                      lineageId="Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[Å abac]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -4974,18 +5550,153 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[admin_name]"
+                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[city]"
                       codePage="65001"
                       dataType="str"
                       length="50"
-                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[admin_name]"
-                      name="admin_name">
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[city]"
+                      name="city">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[admin_name]}</property>
+                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[city]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[city_ascii]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[city_ascii]"
+                      name="city_ascii">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[city_ascii]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[lat]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[lat]"
+                      name="lat">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[lat]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[lng]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[lng]"
+                      name="lng">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[lng]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[country]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[country]"
+                      name="country">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[country]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[iso2]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[iso2]"
+                      name="iso2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[iso2]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[capital]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[capital]"
+                      name="capital">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[capital]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[population]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[population]"
+                      name="population">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[population]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[id]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[id]"
+                      name="id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Provincia\Sort.Outputs[Sort Output].Columns[Å abac]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Provincia\Sort.Outputs[Sort Output].Columns[Å abac]"
+                      name="Å abac">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Provincia\Provincias Arg.Outputs[Flat File Source Output].Columns[Å abac]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -5265,30 +5976,26 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
         <NodeLayout
           Size="172,42"
           Id="Package\Carga de cosas\Operaciones Source"
-          TopLeft="30,148" />
+          TopLeft="30,178" />
         <NodeLayout
           Size="172,42"
           Id="Package\Carga de cosas\Operaciones"
-          TopLeft="283,152" />
+          TopLeft="283,182" />
         <NodeLayout
           Size="172,42"
           Id="Package\Carga de cosas\Paises Source"
-          TopLeft="24,256" />
+          TopLeft="24,286" />
         <NodeLayout
-          Size="172,42"
+          Size="140,42"
           Id="Package\Carga de cosas\Canal Source"
-          TopLeft="38,62" />
+          TopLeft="38,92" />
         <NodeLayout
           Size="172,42"
           Id="Package\Carga de cosas\Paises"
-          TopLeft="286,249" />
-        <NodeLayout
-          Size="105,42"
-          Id="Package\Carga de cosas\Canal"
-          TopLeft="308,60" />
+          TopLeft="286,279" />
         <EdgeLayout
-          Id="Package\Carga de cosas.Paths[Flat File Source Output2]"
-          TopLeft="196,273.5">
+          Id="Package\Carga de cosas.Paths[Flat File Source Output1]"
+          TopLeft="196,303.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5305,14 +6012,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de cosas.Paths[Flat File Source Output1]"
-          TopLeft="202,171">
+          Id="Package\Carga de cosas.Paths[Flat File Source Output]"
+          TopLeft="202,201">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5329,32 +6034,72 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="105,42"
+          Id="Package\Carga de cosas\Canal"
+          TopLeft="290,93" />
         <EdgeLayout
-          Id="Package\Carga de cosas.Paths[Flat File Source Output]"
-          TopLeft="210,82">
+          Id="Package\Carga de cosas.Paths[Flat File Source Output2]"
+          TopLeft="178,113.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="98,0"
+              EndConnector="112,0"
               Start="0,0"
-              End="90.5,0">
+              End="104.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="90.5,0" />
+                    End="104.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Carga de cosas\Flat File Destination"
+          TopLeft="62,8" />
+        <EdgeLayout
+          Id="Package\Carga de cosas.Paths[Flat File Source Error Output]"
+          TopLeft="108,92">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="40,-42"
+              Start="0,0"
+              End="40,-34.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-17" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-17"
+                    Point2="0,-21"
+                    Point3="4,-21" />
+                  <mssgle:LineSegment
+                    End="36,-21" />
+                  <mssgle:CubicBezierSegment
+                    Point1="36,-21"
+                    Point2="40,-21"
+                    Point3="40,-25" />
+                  <mssgle:LineSegment
+                    End="40,-34.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-43.62638671875,-16,127.2527734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -5376,19 +6121,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Carga de cosas\Paises">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga de cosas\Canal">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5476,7 +6208,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -5510,7 +6244,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -5544,7 +6280,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -5578,7 +6316,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -5612,7 +6352,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -5682,7 +6424,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -5704,7 +6448,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -5726,7 +6472,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -5772,7 +6520,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     design-time-name="Package\Provincia">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Provincia\Sort"
+          TopLeft="110,148" />
         <NodeLayout
           Size="145,42"
           Id="Package\Provincia\Provincias Arg"
@@ -5780,167 +6532,173 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
         <NodeLayout
           Size="130,42"
           Id="Package\Provincia\Merge Join"
-          TopLeft="191,214" />
+          TopLeft="196,242" />
         <NodeLayout
           Size="171,42"
           Id="Package\Provincia\OLE DB Destination"
-          TopLeft="172,300" />
-        <NodeLayout
-          Size="98,42"
-          Id="Package\Provincia\Sort"
-          TopLeft="115,127" />
+          TopLeft="173,311" />
         <NodeLayout
           Size="107,42"
           Id="Package\Provincia\Sort 1"
-          TopLeft="301,126" />
+          TopLeft="307,147" />
         <NodeLayout
           Size="97,42"
           Id="Package\Provincia\City"
           TopLeft="301,40" />
         <EdgeLayout
           Id="Package\Provincia.Paths[Sort Output1]"
-          TopLeft="354.5,168">
+          TopLeft="360.5,189">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-78.1666666666667,46"
+              EndConnector="-79.1666666666667,53"
               Start="0,0"
-              End="-78.1666666666667,38.5">
+              End="-79.1666666666667,45.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,23.2644376899696" />
+                    End="0,27.4133738601824" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,23.2644376899696"
-                    Point2="0,27.2644376899696"
-                    Point3="-4,27.2644376899696" />
+                    Point1="0,27.4133738601824"
+                    Point2="0,31.4133738601824"
+                    Point3="-4,31.4133738601824" />
                   <mssgle:LineSegment
-                    End="-74.1666666666667,27.2644376899696" />
+                    End="-75.1666666666667,31.4133738601824" />
                   <mssgle:CubicBezierSegment
-                    Point1="-74.1666666666667,27.2644376899696"
-                    Point2="-78.1666666666667,27.2644376899696"
-                    Point3="-78.1666666666667,31.2644376899696" />
+                    Point1="-75.1666666666667,31.4133738601824"
+                    Point2="-79.1666666666667,31.4133738601824"
+                    Point3="-79.1666666666667,35.4133738601824" />
                   <mssgle:LineSegment
-                    End="-78.1666666666667,38.5" />
+                    End="-79.1666666666667,45.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Provincia.Paths[Sort Output]"
-          TopLeft="164,169">
+          TopLeft="159,190">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="71.6666666666667,45"
+              EndConnector="102,52"
               Start="0,0"
-              End="71.6666666666667,37.5">
+              End="102,44.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.6717325227964" />
+                    End="0,22" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22.6717325227964"
-                    Point2="0,26.6717325227964"
-                    Point3="4,26.6717325227964" />
+                    Point1="0,22"
+                    Point2="0,26"
+                    Point3="4,26" />
                   <mssgle:LineSegment
-                    End="67.6666666666667,26.6717325227964" />
+                    End="98,26" />
                   <mssgle:CubicBezierSegment
-                    Point1="67.6666666666667,26.6717325227964"
-                    Point2="71.6666666666667,26.6717325227964"
-                    Point3="71.6666666666667,30.6717325227964" />
+                    Point1="98,26"
+                    Point2="102,26"
+                    Point3="102,30" />
                   <mssgle:LineSegment
-                    End="71.6666666666667,37.5" />
+                    End="102,44.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Provincia.Paths[Flat File Source Output1]"
-          TopLeft="154.5,83">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="9.5,44"
-              Start="0,0"
-              End="9.5,36.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,18"
-                    Point2="0,22"
-                    Point3="4,22" />
-                  <mssgle:LineSegment
-                    End="5.5,22" />
-                  <mssgle:CubicBezierSegment
-                    Point1="5.5,22"
-                    Point2="9.5,22"
-                    Point3="9.5,26" />
-                  <mssgle:LineSegment
-                    End="9.5,36.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Provincia.Paths[Flat File Source Output]"
-          TopLeft="352,82">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,44"
-              Start="0,0"
-              End="0,36.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Provincia.Paths[Merge Join Output]"
-          TopLeft="256.75,256">
+          TopLeft="259.75,284">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,44"
+              EndConnector="0,27"
               Start="0,0"
-              End="0,36.5">
+              End="0,19.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.5" />
+                    End="0,19.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Provincia.Paths[Flat File Source Output1]"
+          TopLeft="156.75,83">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,65"
+              Start="0,0"
+              End="0,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8,20.75,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Provincia.Paths[Flat File Source Output]"
+          TopLeft="349.5,82">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="11,65"
+              Start="0,0"
+              End="11,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.5"
+                    Point2="0,32.5"
+                    Point3="4,32.5" />
+                  <mssgle:LineSegment
+                    End="7,32.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="7,32.5"
+                    Point2="11,32.5"
+                    Point3="11,36.5" />
+                  <mssgle:LineSegment
+                    End="11,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -5948,6 +6706,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Provincia\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga de cosas\Canal">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
