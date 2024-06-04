@@ -36,6 +36,8 @@ CREATE TABLE Dim_Canal(
 
     nombre_canal    nvarchar(255)     NOT NULL,
 
+	medio    nvarchar(255)     NOT NULL,
+
     CONSTRAINT PK8 PRIMARY KEY NONCLUSTERED (id)
 
 )
@@ -66,8 +68,6 @@ go
 
  */
 
-
-
 CREATE TABLE Dim_Ciudad(
 
     id_ciudad       int            IDENTITY(1,1),
@@ -80,17 +80,13 @@ CREATE TABLE Dim_Ciudad(
 
     poblacion       int            NOT NULL,
 
-	codpostal       int            NOT NULL,
+	codpostal       nvarchar(255)  NOT NULL,
 
     CONSTRAINT PK17 PRIMARY KEY NONCLUSTERED (id_ciudad, id_provincia, id_pais)
 
 )
 
 go
-
-
-
-
 
 
 
@@ -118,8 +114,6 @@ CREATE TABLE Dim_Cliente(
 
     id_cliente          int               IDENTITY(1,1),
 
-    id_direccion        int               NOT NULL,
-
     id_ciudad           int               NOT NULL,
 
     id_provincia        int               NOT NULL,
@@ -136,7 +130,7 @@ CREATE TABLE Dim_Cliente(
 
     ingresos            money             NOT NULL,
 
-    CONSTRAINT PK12 PRIMARY KEY NONCLUSTERED (id_cliente, id_direccion, id_ciudad, id_provincia, id_pais)
+    CONSTRAINT PK12 PRIMARY KEY NONCLUSTERED (id_cliente, id_ciudad, id_provincia, id_pais)
 
 )
 
@@ -171,7 +165,7 @@ CREATE TABLE Dim_Cuenta(
 
     id            int             IDENTITY(1,1),
 
-    id_cuenta     int             NULL,
+    id_cuenta     nvarchar(255) NULL,
 
     tipoCuenta    nvarchar(255)    NOT NULL,
 
@@ -180,7 +174,6 @@ CREATE TABLE Dim_Cuenta(
 )
 
 go
-
 
 
 
@@ -199,51 +192,7 @@ go
 
 
 
-/* 
 
- * TABLE: Dim_Direccion 
-
- */
-
-
-
-CREATE TABLE Dim_Direccion(
-
-    id_direccion    int             IDENTITY(1,1),
-
-    id_ciudad       int             NOT NULL,
-
-    id_provincia    int             NOT NULL,
-
-    id_pais         int             NOT NULL,
-
-    calle           nvarchar(255)    NOT NULL,
-
-    tipo_calle      nvarchar(255)     NOT NULL,
-
-    nombreAlt       nvarchar(255)    NOT NULL,
-
-    CONSTRAINT PK18 PRIMARY KEY NONCLUSTERED (id_direccion, id_ciudad, id_provincia, id_pais)
-
-)
-
-go
-
-
-
-
-
-
-
-IF OBJECT_ID('Dim_Direccion') IS NOT NULL
-
-    PRINT '<<< CREATED TABLE Dim_Direccion >>>'
-
-ELSE
-
-    PRINT '<<< FAILED CREATING TABLE Dim_Direccion >>>'
-
-go
 
 
 
@@ -375,47 +324,6 @@ go
 
 
 
-CREATE TABLE Dim_Sucursal(
-
-    id              int              IDENTITY(1,1),
-
-    id_sucursal     nvarchar(255)    NULL,
-
-    id_direccion    int              NOT NULL,
-
-    id_ciudad       int              NOT NULL,
-
-    id_provincia    int              NOT NULL,
-
-    id_pais         int              NOT NULL,
-
-    tipo_filial     nvarchar(255)     NULL,
-
-    caj_aut         bit              NOT NULL,
-
-    CONSTRAINT PK7 PRIMARY KEY NONCLUSTERED (id, id_direccion, id_ciudad, id_provincia, id_pais)
-
-)
-
-go
-
-
-
-
-
-
-
-IF OBJECT_ID('Dim_Sucursal') IS NOT NULL
-
-    PRINT '<<< CREATED TABLE Dim_Sucursal >>>'
-
-ELSE
-
-    PRINT '<<< FAILED CREATING TABLE Dim_Sucursal >>>'
-
-go
-
-
 
 /* 
 
@@ -429,9 +337,7 @@ CREATE TABLE Dim_Terminal(
 
     id                    int             IDENTITY(1,1),
 
-    id_terminal           int             NULL,
-
-    id_direccion          int             NOT NULL,
+    id_terminal           nvarchar(255)             NULL,
 
     id_ciudad             int             NOT NULL,
 
@@ -441,15 +347,11 @@ CREATE TABLE Dim_Terminal(
 
     entidad_financiera    nvarchar(255)    NOT NULL,
 
-    CONSTRAINT PK10 PRIMARY KEY NONCLUSTERED (id, id_direccion, id_ciudad, id_provincia, id_pais)
+    CONSTRAINT PK10 PRIMARY KEY NONCLUSTERED (id, id_ciudad, id_provincia, id_pais)
 
 )
 
 go
-
-
-
-
 
 
 
@@ -534,15 +436,11 @@ CREATE TABLE Facts_Transaccion(
 
     id_cuentaDestino      int      NOT NULL,
 
-    id_sucursal           int      NOT NULL,
-
     id_terminal           int      NOT NULL,
 
     id_canal              int      NOT NULL,
 
     id_operacion          int      NOT NULL,
-
-    id_direccion          int      NOT NULL,
 
     id_ciudad             int      NOT NULL,
 
@@ -564,7 +462,7 @@ CREATE TABLE Facts_Transaccion(
 
     fail_transacciones    bit      NOT NULL,
 
-    CONSTRAINT PK3 PRIMARY KEY NONCLUSTERED (id_transaccion, id_tiempo, id_cuentaOrigen, id_cuentaDestino, id_sucursal, id_canal, id_operacion, id_direccion, id_ciudad, id_provincia, id_pais, id_terminal)
+    CONSTRAINT PK3 PRIMARY KEY NONCLUSTERED (id_transaccion, id_tiempo, id_cuentaOrigen, id_cuentaDestino, id_canal, id_operacion, id_ciudad, id_provincia, id_pais, id_terminal)
 
 )
 
@@ -602,15 +500,13 @@ CREATE TABLE Titular(
 
     id_cuenta       int    NOT NULL,
 
-    id_direccion    int    NOT NULL,
-
     id_ciudad       int    NOT NULL,
 
     id_provincia    int    NOT NULL,
 
     id_pais         int    NOT NULL,
 
-    CONSTRAINT PK14 PRIMARY KEY NONCLUSTERED (id_cliente, id_cuenta, id_direccion, id_ciudad, id_provincia, id_pais)
+    CONSTRAINT PK14 PRIMARY KEY NONCLUSTERED (id_cliente, id_cuenta, id_ciudad, id_provincia, id_pais)
 
 )
 
@@ -657,7 +553,6 @@ ELSE
 go
 
 
-
 /* 
 
  * INDEX: Ref1823 
@@ -666,7 +561,7 @@ go
 
 
 
-CREATE INDEX Ref1823 ON Dim_Cliente(id_pais, id_provincia, id_ciudad, id_direccion)
+CREATE INDEX Ref1823 ON Dim_Cliente(id_pais, id_provincia, id_ciudad)
 
 go
 
@@ -687,22 +582,6 @@ go
  * INDEX: Ref1722 
 
  */
-
-
-
-CREATE INDEX Ref1722 ON Dim_Direccion(id_pais, id_provincia, id_ciudad)
-
-go
-
-IF EXISTS (SELECT * FROM sys.indexes WHERE object_id=OBJECT_ID('Dim_Direccion') AND name='Ref1722')
-
-    PRINT '<<< CREATED INDEX Dim_Direccion.Ref1722 >>>'
-
-ELSE
-
-    PRINT '<<< FAILED CREATING INDEX Dim_Direccion.Ref1722 >>>'
-
-go
 
 
 
@@ -729,31 +608,6 @@ ELSE
 go
 
 
-
-/* 
-
- * INDEX: Ref1825 
-
- */
-
-
-
-CREATE INDEX Ref1825 ON Dim_Sucursal(id_pais, id_provincia, id_ciudad, id_direccion)
-
-go
-
-IF EXISTS (SELECT * FROM sys.indexes WHERE object_id=OBJECT_ID('Dim_Sucursal') AND name='Ref1825')
-
-    PRINT '<<< CREATED INDEX Dim_Sucursal.Ref1825 >>>'
-
-ELSE
-
-    PRINT '<<< FAILED CREATING INDEX Dim_Sucursal.Ref1825 >>>'
-
-go
-
-
-
 /* 
 
  * INDEX: Ref1824 
@@ -762,7 +616,7 @@ go
 
 
 
-CREATE INDEX Ref1824 ON Dim_Terminal(id_pais, id_provincia, id_ciudad, id_direccion)
+CREATE INDEX Ref1824 ON Dim_Terminal(id_pais, id_provincia, id_ciudad)
 
 go
 
@@ -810,7 +664,7 @@ go
 
 
 
-CREATE INDEX Ref108 ON Facts_Transaccion(id_sucursal, id_ciudad, id_direccion, id_pais, id_provincia)
+CREATE INDEX Ref108 ON Facts_Transaccion( id_ciudad, id_pais, id_provincia)
 
 go
 
@@ -882,7 +736,7 @@ go
 
 
 
-CREATE INDEX Ref74 ON Facts_Transaccion(id_sucursal, id_ciudad, id_direccion, id_pais, id_provincia)
+CREATE INDEX Ref74 ON Facts_Transaccion(id_ciudad, id_pais, id_provincia)
 
 go
 
@@ -954,7 +808,7 @@ go
 
 
 
-CREATE INDEX Ref1218 ON Titular(id_pais, id_provincia, id_ciudad, id_direccion, id_cliente)
+CREATE INDEX Ref1218 ON Titular(id_pais, id_provincia, id_ciudad, id_cliente)
 
 go
 
@@ -992,8 +846,6 @@ ELSE
 
 go
 
-
-
 /* 
 
  * TABLE: Dim_Ciudad 
@@ -1009,50 +861,6 @@ ALTER TABLE Dim_Ciudad ADD CONSTRAINT RefDim_Provincia21
     REFERENCES Dim_Provincia(id_provincia, id_pais)
 
 go
-
-
-
-
-
-/* 
-
- * TABLE: Dim_Cliente 
-
- */
-
-
-
-ALTER TABLE Dim_Cliente ADD CONSTRAINT RefDim_Direccion23 
-
-    FOREIGN KEY (id_direccion, id_ciudad, id_provincia, id_pais)
-
-    REFERENCES Dim_Direccion(id_direccion, id_ciudad, id_provincia, id_pais)
-
-go
-
-
-
-
-
-/* 
-
- * TABLE: Dim_Direccion 
-
- */
-
-
-
-ALTER TABLE Dim_Direccion ADD CONSTRAINT RefDim_Ciudad22 
-
-    FOREIGN KEY (id_ciudad, id_provincia, id_pais)
-
-    REFERENCES Dim_Ciudad(id_ciudad, id_provincia, id_pais)
-
-go
-
-
-
-
 
 /* 
 
@@ -1073,53 +881,11 @@ go
 
 
 
-
-/* 
-
- * TABLE: Dim_Sucursal 
-
- */
-
-
-
-ALTER TABLE Dim_Sucursal ADD CONSTRAINT RefDim_Direccion25 
-
-    FOREIGN KEY (id_direccion, id_ciudad, id_provincia, id_pais)
-
-    REFERENCES Dim_Direccion(id_direccion, id_ciudad, id_provincia, id_pais)
-
-go
-
-
-
-
-
-/* 
-
- * TABLE: Dim_Terminal 
-
- */
-
-
-
-ALTER TABLE Dim_Terminal ADD CONSTRAINT RefDim_Direccion24 
-
-    FOREIGN KEY (id_direccion, id_ciudad, id_provincia, id_pais)
-
-    REFERENCES Dim_Direccion(id_direccion, id_ciudad, id_provincia, id_pais)
-
-go
-
-
-
-
-
 /* 
 
  * TABLE: Facts_Transaccion 
 
  */
-
 
 
 ALTER TABLE Facts_Transaccion ADD CONSTRAINT RefDim_Operacion3 
@@ -1129,17 +895,6 @@ ALTER TABLE Facts_Transaccion ADD CONSTRAINT RefDim_Operacion3
     REFERENCES Dim_Operacion(id)
 
 go
-
-
-
-ALTER TABLE Facts_Transaccion ADD CONSTRAINT RefDim_Sucursal4 
-
-    FOREIGN KEY (id_sucursal, id_direccion, id_ciudad, id_provincia, id_pais)
-
-    REFERENCES Dim_Sucursal(id, id_direccion, id_ciudad, id_provincia, id_pais)
-
-go
-
 
 
 ALTER TABLE Facts_Transaccion ADD CONSTRAINT RefDim_Canal5 
@@ -1174,9 +929,9 @@ go
 
 ALTER TABLE Facts_Transaccion ADD CONSTRAINT RefDim_Terminal8 
 
-    FOREIGN KEY (id_terminal, id_direccion, id_ciudad, id_provincia, id_pais)
+    FOREIGN KEY (id_terminal, id_ciudad, id_provincia, id_pais)
 
-    REFERENCES Dim_Terminal(id, id_direccion, id_ciudad, id_provincia, id_pais)
+    REFERENCES Dim_Terminal(id, id_ciudad, id_provincia, id_pais)
 
 go
 
@@ -1204,9 +959,9 @@ go
 
 ALTER TABLE Titular ADD CONSTRAINT RefDim_Cliente18 
 
-    FOREIGN KEY (id_cliente, id_direccion, id_ciudad, id_provincia, id_pais)
+    FOREIGN KEY (id_cliente, id_ciudad, id_provincia, id_pais)
 
-    REFERENCES Dim_Cliente(id_cliente, id_direccion, id_ciudad, id_provincia, id_pais)
+    REFERENCES Dim_Cliente(id_cliente, id_ciudad, id_provincia, id_pais)
 
 go
 
@@ -1219,13 +974,4 @@ ALTER TABLE Titular ADD CONSTRAINT RefDim_Cuenta19
     REFERENCES Dim_Cuenta(id)
 
 go
-
-ALTER TABLE Dim_Canal
-ALTER COLUMN nombre_canal nvarchar(255) NOT NULL;
-
-Exec sp_rename 'Dim_Canal.nombre_canal', 'descripcion', 'Column'
-
-
-
-
 
