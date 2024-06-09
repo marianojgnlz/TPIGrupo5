@@ -20,12 +20,12 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Tiempo.dim</Name>
-      <FullPath>Tiempo.dim</FullPath>
+      <Name>Dim Canal.dim</Name>
+      <FullPath>Dim Canal.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Canal.dim</Name>
-      <FullPath>Canal.dim</FullPath>
+      <Name>Dim Tiempo.dim</Name>
+      <FullPath>Dim Tiempo.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Facts Transaccion.dim</Name>
@@ -34,12 +34,8 @@
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Tpi.ds</Name>
-      <FullPath>Tpi.ds</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Tpi1.ds</Name>
-      <FullPath>Tpi1.ds</FullPath>
+      <Name>TpiG5.ds</Name>
+      <FullPath>TpiG5.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
@@ -54,29 +50,12 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>Tpi</Id>
-            <Name>Tpi</Name>
-            <Value xsi:type="xsd:string">Data Source=WIN-NTQND0LTK5P\TPIGRUPO5;Initial Catalog=tpi;Integrated Security=True;Trust Server Certificate=True</Value>
-          </ConfigurationSetting>
-          <ConfigurationSetting>
             <Id>Tpi1</Id>
             <Name>Tpi1</Name>
             <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=WIN-NTQND0LTK5P\TPIGRUPO5;Integrated Security=SSPI;Initial Catalog=tpi</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
-        <ConnectionProviderMappings>
-          <ConfigurationSetting>
-            <Id>Tpi</Id>
-            <Name>Tpi</Name>
-            <Value xsi:type="xsd:string">System.Data.SqlClient</Value>
-          </ConfigurationSetting>
-        </ConnectionProviderMappings>
         <ConnectionSecurityMappings>
-          <ConfigurationSetting>
-            <Id>Tpi</Id>
-            <Name>Tpi</Name>
-            <Value xsi:type="xsd:int">0</Value>
-          </ConfigurationSetting>
           <ConfigurationSetting>
             <Id>Tpi1</Id>
             <Name>Tpi1</Name>

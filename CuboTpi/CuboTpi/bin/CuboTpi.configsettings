@@ -2,31 +2,41 @@
   <Database>
     <DataSources>
       <DataSource>
-        <ID>Tpi</ID>
-        <ConnectionString>Data Source=WIN-NTQND0LTK5P\TPIGRUPO5;Initial Catalog=tpi;Integrated Security=True;Trust Server Certificate=True</ConnectionString>
-        <ManagedProvider>System.Data.SqlClient</ManagedProvider>
-        <ImpersonationInfo>
-          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateCurrentUser</ImpersonationMode>
-          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
-        </ImpersonationInfo>
-      </DataSource>
-      <DataSource>
         <ID>Tpi1</ID>
         <ConnectionString>Provider=SQLOLEDB.1;Data Source=WIN-NTQND0LTK5P\TPIGRUPO5;Integrated Security=SSPI;Initial Catalog=tpi</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
-          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Admin</Account>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>
     </DataSources>
     <Dimensions>
       <Dimension>
+        <ID>Dim Canal</ID>
+      </Dimension>
+      <Dimension>
         <ID>Dim Tiempo</ID>
       </Dimension>
       <Dimension>
-        <ID>Canal</ID>
+        <ID>Facts Transaccion</ID>
       </Dimension>
     </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Tasa</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Facts Transaccion</ID>
+            <Partitions>
+              <Partition>
+                <ID>Facts Transaccion</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
     <DataSourceImpersonationInfo>
       <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
       <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
