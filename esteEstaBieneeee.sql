@@ -24,6 +24,9 @@
 
  */
 
+-- create database tpi;
+
+
 use tpi;
 
 
@@ -119,8 +122,6 @@ CREATE TABLE Dim_Cliente(
     id_provincia        int               NOT NULL,
 
     id_pais             int               NOT NULL,
-
-    cbu                 numeric(22, 0)    NOT NULL,
 
     fecha_nacimiento    date              NOT NULL,
 
