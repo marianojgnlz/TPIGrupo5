@@ -123,6 +123,8 @@ CREATE TABLE Dim_Cliente(
 
     id_pais             int               NOT NULL,
 
+	 id_viejo            int               NOT NULL,
+
     fecha_nacimiento    date              NOT NULL,
 
     genero              char(1)           NOT NULL,
@@ -435,8 +437,6 @@ CREATE TABLE Facts_Transaccion(
 
     id_cuentaOrigen       int      NOT NULL,
 
-    id_cuentaDestino      int      NOT NULL,
-
     id_terminal           int      NOT NULL,
 
     id_canal              int      NOT NULL,
@@ -463,7 +463,7 @@ CREATE TABLE Facts_Transaccion(
 
     fail_transacciones    bit      NOT NULL,
 
-    CONSTRAINT PK3 PRIMARY KEY NONCLUSTERED (id_transaccion, id_tiempo, id_cuentaOrigen, id_cuentaDestino, id_canal, id_operacion, id_ciudad, id_provincia, id_pais, id_terminal)
+    CONSTRAINT PK3 PRIMARY KEY NONCLUSTERED (id_transaccion, id_tiempo, id_cuentaOrigen, id_canal, id_operacion, id_ciudad, id_provincia, id_pais, id_terminal)
 
 )
 
@@ -785,28 +785,11 @@ go
 
 
 
-CREATE INDEX Ref96 ON Facts_Transaccion(id_cuentaDestino)
-
-go
-
-IF EXISTS (SELECT * FROM sys.indexes WHERE object_id=OBJECT_ID('Facts_Transaccion') AND name='Ref96')
-
-    PRINT '<<< CREATED INDEX Facts_Transaccion.Ref96 >>>'
-
-ELSE
-
-    PRINT '<<< FAILED CREATING INDEX Facts_Transaccion.Ref96 >>>'
-
-go
-
-
-
 /* 
 
  * INDEX: Ref1218 
 
  */
-
 
 
 CREATE INDEX Ref1218 ON Titular(id_pais, id_provincia, id_ciudad, id_cliente)
@@ -905,18 +888,6 @@ ALTER TABLE Facts_Transaccion ADD CONSTRAINT RefDim_Canal5
     REFERENCES Dim_Canal(id)
 
 go
-
-
-
-ALTER TABLE Facts_Transaccion ADD CONSTRAINT RefDim_Cuenta6 
-
-    FOREIGN KEY (id_cuentaDestino)
-
-    REFERENCES Dim_Cuenta(id)
-
-go
-
-
 
 ALTER TABLE Facts_Transaccion ADD CONSTRAINT RefDim_Cuenta7 
 
