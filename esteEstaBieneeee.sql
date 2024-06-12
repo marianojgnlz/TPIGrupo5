@@ -24,7 +24,7 @@
 
  */
 
--- create database tpi;
+ --create database tpi;
 
 
 use tpi;
@@ -214,6 +214,10 @@ CREATE TABLE Dim_Operacion(
     desc_op         nvarchar(500)    NULL,
 
     id_operacion    nvarchar(500)    NULL,
+
+	fechaS    date    NULL,
+
+	fechaE    date    NULL,
 
     CONSTRAINT PK5 PRIMARY KEY NONCLUSTERED (id)
 
