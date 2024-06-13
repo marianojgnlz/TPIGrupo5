@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>TPIGrupo5Cubo</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>mIxWSY/iMk3cMcab/wpXwgJSN9U=6/12/2024 5:08:01 PM6/12/2024 4:21:03 PM</TimeStamp>
+        <ID>
+          <String>Tpi</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>0RGn2XIRJaWoXDgq1PMfFccyCVY=6/12/2024 4:47:09 PM6/12/2024 4:25:22 PM</TimeStamp>
+        <ID>
+          <String>Tpi</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>du5fA5khXhje+OvBlApjM7zovw4=6/12/2024 4:28:00 PM6/12/2024 4:27:59 PM</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wSFpBpPv63F+dRC5UwLafS8ClIc=6/12/2024 4:28:21 PM6/12/2024 4:28:21 PM</TimeStamp>
+        <ID>
+          <String>Dim Canal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qlWkiNfrJaKYoZO738imik+8xz8=6/12/2024 4:46:59 PM6/12/2024 4:46:59 PM</TimeStamp>
+        <ID>
+          <String>Facts Transaccion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ovAndePPHTF4X1MAvJs6Y0G+spc=6/12/2024 4:50:04 PM6/12/2024 4:50:03 PMcmFBK6yrAUXWqdOrLAmXO55LUM0=6/12/2024 4:50:04 PM6/12/2024 4:50:03 PM</TimeStamp>
+        <ID>
+          <String>Tpi</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>By4o+r9AwM7+jq2nkcR5+4I/l34=6/12/2024 4:19:58 PM6/12/2024 4:19:58 PM</TimeStamp>
+      <ID>
+        <String>TPIGrupo5Cubo</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-06-13T00:09:32.753333Z</LastDeployed>
+</DeploymentSnapshot>

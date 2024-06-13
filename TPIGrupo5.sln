@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "TPIGrupo5.Cubo", "TPIGrupo5.Cubo\TPIGrupo5.Cubo.dwproj", "{D33050B1-184A-492E-8AB1-42150C0A7275}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -17,6 +19,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{05E8C314-96F9-432D-B804-61CC2CF97644}.Development|Default.ActiveCfg = Development
 		{05E8C314-96F9-432D-B804-61CC2CF97644}.Development|Default.Build.0 = Development
+		{D33050B1-184A-492E-8AB1-42150C0A7275}.Development|Default.ActiveCfg = Development
+		{D33050B1-184A-492E-8AB1-42150C0A7275}.Development|Default.Build.0 = Development
+		{D33050B1-184A-492E-8AB1-42150C0A7275}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
