@@ -1,0 +1,1866 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8419948d-0eed-4952-bbe6-16053efc1012" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Completo</ID>
+  <Name>Completo</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="7662c5a5-d1bb-4128-a15b-490239f38ebc">
+      <ID>Canal FULL</ID>
+      <Name>Canal FULL</Name>
+      <DimensionID>Canal FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8073db76-f390-4f0a-a858-7b5074a26539">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="083c3ef8-fdfa-47d3-bef3-37249d2448e6">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="191d47e7-de91-47a4-b9bb-02ec85bc500f">
+          <AttributeID>Nombre Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ba7a2ee-9477-4bf6-a11b-dc92e054ac6b">
+          <AttributeID>Medio</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c1ab2c9f-af59-493b-abe5-7748b1527d9e">
+      <ID>Cliente FULL</ID>
+      <Name>Cliente FULL</Name>
+      <DimensionID>Dim Cliente</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="27bab01a-7a13-4aa7-98bf-3337ee32024f">
+          <AttributeID>Id Cliente</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dd22394e-74a9-4115-be0d-31db85e8f4e4">
+          <AttributeID>Id Ciudad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="00caa469-7273-4062-b762-35b4ff5afb6f">
+          <AttributeID>Id Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a4292151-23ac-44d0-a8e7-4d2675ce708c">
+          <AttributeID>Id Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="78445839-1ae6-403d-9e88-8280aa67d8c3">
+          <AttributeID>Id Viejo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f85c83e0-1bec-4067-bac0-150ef4b4f626">
+          <AttributeID>Fecha Nacimiento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3dc4cd73-7b08-471f-bf6c-9eab1f3545ab">
+          <AttributeID>Genero</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02fc6be5-9668-4d98-8cb2-df930d5dbdde">
+          <AttributeID>Profesion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="588c0e80-0ff4-41db-803c-b1a5b2665188">
+          <AttributeID>Ingresos</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="27a7d3fa-4200-4f44-8c38-d239bc8c5774">
+      <ID>Cuenta FULL</ID>
+      <Name>Cuenta FULL</Name>
+      <DimensionID>Dim Cuenta</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="dec7ceb1-3cf9-496b-8f02-5bd03056dc13">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ab89a54-10f3-4fce-86e0-8ce54265e120">
+          <AttributeID>Id Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="37adae52-a102-4fca-bed9-e8339a412b2e">
+          <AttributeID>Tipo Cuenta</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="78e929a9-e5b6-400b-ad77-5b5cf324ff63">
+      <ID>CIUDAD FULL</ID>
+      <Name>CIUDAD FULL</Name>
+      <DimensionID>CIUDAD FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="97adacf1-615f-4195-8c4e-c0f2632c275f">
+          <AttributeID>Id Ciudad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7e635e85-0d4f-45cb-903d-91e80ac01dea">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c491c162-fa23-4e9b-a1c0-93429de85bf7">
+          <AttributeID>Poblacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="24fba43e-32de-471e-b5c1-3d54c8691b95">
+          <AttributeID>Codpostal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b7c9ef7-7925-4601-ab78-5e9f1e57034d">
+          <AttributeID>Id Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2d78ac01-4dbc-4f7f-ab12-98b74eba87e3">
+          <AttributeID>Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="61aed25f-be6a-431f-9bec-739765e9f780">
+          <AttributeID>Id Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="afd533e9-cf26-4544-a9d1-c8ef82561787">
+          <AttributeID>Pais Nac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da99d1a4-51a2-4324-adb0-9d5908e653c3">
+          <AttributeID>Iso</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="fa422368-8873-4e90-8e11-473e0081ff3f">
+      <ID>Id Provincia</ID>
+      <Name>Id Provincia</Name>
+      <DimensionID>CIUDAD FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bde583eb-578e-4937-ad25-cb4c74c0a6d9">
+          <AttributeID>Id Ciudad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7fa2fed2-226f-4967-988a-174e2b9c455b">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e288e589-91ac-4f39-acf2-483c3777e068">
+          <AttributeID>Poblacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7897f157-6573-46d1-81bf-f1ebd77e2c74">
+          <AttributeID>Codpostal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4dee96d6-0196-47fe-bdb5-a0d3703a3091">
+          <AttributeID>Id Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6100b2e-a338-464e-bc3d-382cef8f9b32">
+          <AttributeID>Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="956a8040-fcf1-47d0-959c-c0aedab93e15">
+          <AttributeID>Id Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="93c07e32-9a1a-4a28-9010-8405004bae99">
+          <AttributeID>Pais Nac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06f07472-7701-4d5c-82f5-e75c5f25a9bc">
+          <AttributeID>Iso</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3fe1997e-bb12-42f5-a7ba-f4cb64cd9f17">
+      <ID>Operacion FULL</ID>
+      <Name>Operacion FULL</Name>
+      <DimensionID>Operacion FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bbd31958-cdc1-4082-8d70-b599f79e9ed6">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b4e3cc1-0a01-4b81-a06a-7714ed7d869f">
+          <AttributeID>Desc Op</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d10397b5-507a-457e-98af-1cdb8e7820a7">
+          <AttributeID>Id Operacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="784880bd-a7c4-4bfe-b77e-6ad3a08584a5">
+          <AttributeID>Fecha S</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4a12f52a-fa1c-410d-a9d3-2a65e9c9551a">
+          <AttributeID>Fecha E</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d532ab33-9afe-4cd5-b5a4-1fbcf98db559">
+      <ID>PAIS FULL</ID>
+      <Name>PAIS FULL</Name>
+      <DimensionID>PAIS FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="55cb1599-2f7a-4aea-919e-040cb1ad43b9">
+          <AttributeID>Id Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="20fc4388-2376-410e-a28a-002337402f5f">
+          <AttributeID>Pais Nac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ca402f3-4d0c-4c74-8fee-40e8aaed8e51">
+          <AttributeID>Iso</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="20f17f99-a53a-4694-9854-d70b28dcf437">
+      <ID>Provincia FULL</ID>
+      <Name>Provincia FULL</Name>
+      <DimensionID>Dim Provincia</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="449b9a2b-4a96-425d-80c7-42ba2286bd06">
+          <AttributeID>Id Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="099d91a9-374f-497d-a5da-22c2a3369c3a">
+          <AttributeID>Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e6c5750-07c9-4cf8-8c8f-1664efe35238">
+          <AttributeID>Id Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7280f324-dd99-4e62-98d6-9ff7bbb6c71e">
+          <AttributeID>Pais Nac</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81ad4c76-6a33-4956-af03-b4d19ef2b1b7">
+          <AttributeID>Iso</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8789564a-5898-4497-a4da-894067d5d4ac">
+      <ID>Terminal FULL</ID>
+      <Name>Terminal FULL</Name>
+      <DimensionID>Terminal FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="89cc96a7-7655-4d93-83be-5bba0ab3f49a">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be62ad95-3ef3-48ca-bed3-c8e25f754f95">
+          <AttributeID>Id Terminal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="455c4875-c1b7-40b1-9c48-92b40bab3d2e">
+          <AttributeID>Id Ciudad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c0d76d0f-7967-4938-a6d1-a6d868a71452">
+          <AttributeID>Id Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ade138f4-8244-4039-ba89-b546d2e378f7">
+          <AttributeID>Id Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6efa33c5-9cc6-48d1-a789-c6e9695c12e9">
+          <AttributeID>Entidad Financiera</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e0423fbe-27a7-4a44-be6f-1c352963b2ae">
+      <ID>TIEMPO FULL</ID>
+      <Name>TIEMPO FULL</Name>
+      <DimensionID>TIEMPO FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ce449108-c998-40b7-8fcf-31be749b3d33">
+          <AttributeID>Id Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="76295a9e-3ebf-478a-8c05-c527d1f09e91">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7355ead-e8a1-4301-82bd-4bf1cab76e43">
+          <AttributeID>Date String</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3d35e4f3-2b54-4b3a-89d3-f084f6572f5d">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c11e6890-16c4-409f-8939-3ce769623199">
+          <AttributeID>Dayof Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cab21582-e04b-4527-9b25-4decfa7791d9">
+          <AttributeID>Dayof Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4a368fbd-b205-4f76-aed7-74d55901b678">
+          <AttributeID>Dayof Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9048a800-0da7-40e1-85e6-c37ed99f0609">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="55becbec-7eb2-4730-b631-6d117077f299">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cd07f2b4-b8c7-483f-b78e-fe51d272d926">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ebabe5cc-047c-42ba-a11b-96f9fc37c8b1">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e3cd957-ab69-43b0-98ad-69d10185b2c2">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5dada7a2-8d5a-43bb-ab0d-0f99dc2050ac">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="012d8367-e32b-4733-aeaf-db3122c3d208">
+          <AttributeID>Is Leap Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="32eabf70-49f4-4728-8917-30f7ec3a8428">
+          <AttributeID>Is Public Day</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="0778b614-39d6-46de-a692-35ad887ba160">
+      <ID>Transacciones FULL</ID>
+      <Name>Transacciones FULL</Name>
+      <DimensionID>Transacciones FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="62c12a6e-cbd8-4b12-b635-5a873cf9cb39">
+          <AttributeID>Id Transaccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06e24706-c596-4ce9-b1ea-2474956d5eb7">
+          <AttributeID>Total Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="885f9826-d4d6-4c4b-8588-8548645fc49e">
+          <AttributeID>Max Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3e364e76-1e6f-47a7-9fb2-b93bfa033c3b">
+          <AttributeID>Avg Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8bd8351f-0d22-450d-a9c4-a505905c06c7">
+          <AttributeID>Cant Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="53c91a18-4f33-41d8-9519-f14c3b5652fb">
+          <AttributeID>Min Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2d00bfaf-2cef-47ff-9d7a-e737afb38fc9">
+          <AttributeID>Ok Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d18d523-620c-4d86-8c13-fdc9476b6b66">
+          <AttributeID>Fail Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3d26d88b-a1f1-431b-83be-abd02f4b7cc9">
+          <AttributeID>Id Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c2c4261a-6591-4dd5-970b-5cfb65afe302">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1703148e-2300-4516-afd5-45c3f2caa733">
+          <AttributeID>Date String</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87a66fb9-a06d-41ae-a7fd-d969566c1909">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6586973c-8a15-41ce-baac-99fc04aefdfa">
+          <AttributeID>Dayof Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aaa7dea2-83c7-48b3-b092-95866b2017d1">
+          <AttributeID>Dayof Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="86914b2d-2413-4d8e-ad13-5b28cf030eb9">
+          <AttributeID>Dayof Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a7e9a02b-f122-4fad-8694-52c58183e7c8">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="335a15f0-f392-4db7-b372-b035e736c600">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9028d7b1-3da1-4248-8748-dc87007c4a6d">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="17d7675a-8804-46f8-a74a-aa27246fe164">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6603c2df-9a86-4578-bcfb-c23c6022f41a">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e397f4f-a64b-4f54-b79c-094df432bf31">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6e36b28c-5f0b-4c49-a420-720c53f76281">
+          <AttributeID>Is Leap Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c31b7fd2-5a01-4473-8052-419f3d81ae0e">
+          <AttributeID>Is Public Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="60ca5b11-a28c-4701-a804-329221e7345d">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="95253cd9-ace6-4946-9103-82e81d508b67">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="14bee371-a531-4dd9-9589-ef907dbf6b05">
+          <AttributeID>Nombre Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b4af23d-e4e2-4b80-8f22-9b9b7560f173">
+          <AttributeID>Medio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c6532bac-eded-4117-9330-b25857ed5039">
+          <AttributeID>Dim Cuenta - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cbc040f9-26b8-45db-9125-f67de1bd091b">
+          <AttributeID>Id Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4486d9cc-65ff-44b2-9228-66c14dd98b33">
+          <AttributeID>Tipo Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d5ed2dbb-f0d2-4302-9762-5c105c41e77e">
+          <AttributeID>Dim Terminal - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="89eef984-2fc6-48e4-b066-e5f9b47055d4">
+          <AttributeID>Id Terminal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="139efc32-d031-4bea-aab6-e8e18d57315c">
+          <AttributeID>Entidad Financiera</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4507bb14-840c-4235-a143-bbcbcb129998">
+          <AttributeID>Dim Operacion - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="60056431-cada-4e17-b6c6-555e0917cf27">
+          <AttributeID>Desc Op</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e02f0239-76cd-42c5-973b-c31d94a9fb4e">
+          <AttributeID>Id Operacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d54f0d60-d262-423c-8417-bc0a65981099">
+          <AttributeID>Fecha S</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4905a7de-3c68-4214-8b42-78d7394aabca">
+          <AttributeID>Fecha E</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c952424a-2d04-4789-aa22-29ce4f914ad6">
+      <ID>Id Tiempo</ID>
+      <Name>Id Tiempo</Name>
+      <DimensionID>Transacciones FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a600216c-bf32-4dad-ae4d-0a4cb4b0ef0f">
+          <AttributeID>Id Transaccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81958cc9-295b-4547-af6e-555dc9dee0ac">
+          <AttributeID>Total Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a2fe28ea-abdd-49a1-b75f-e24717ff4040">
+          <AttributeID>Max Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2830bb64-c569-4a47-9c8c-4329a6a3760d">
+          <AttributeID>Avg Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f467fec7-17df-4a5a-954e-4edf8ec65b81">
+          <AttributeID>Cant Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="798029be-3163-4380-92bd-34002ab45075">
+          <AttributeID>Min Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4f1c97dd-6f56-461c-8af9-cf2ed076c879">
+          <AttributeID>Ok Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1a2e973c-db1b-428f-a0ec-a70a188148c9">
+          <AttributeID>Fail Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52e27f97-cd30-4962-9bfc-14897eda1d45">
+          <AttributeID>Id Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cbd69127-1a4f-49ff-a9b8-21dd8e23d298">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d17cf369-dbc0-4cd5-a828-4b9ef440991f">
+          <AttributeID>Date String</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4dbaf188-bf5c-442e-a9c2-d738f54dd15a">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d84e8691-86d4-4647-9986-5b24daabfe50">
+          <AttributeID>Dayof Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b95e7c38-1331-4a88-a846-503ac31d42c0">
+          <AttributeID>Dayof Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="edc74b90-45cd-4793-8fe5-1974c3bae28f">
+          <AttributeID>Dayof Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f4476260-2c21-409a-aad0-c3a68212acc6">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b140af00-ae22-4a07-8402-46f44bf3d73e">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="35887199-db08-452a-9ebf-791e80377086">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a426163-9377-4e10-a312-572310031662">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5f769bac-4031-4c01-963a-ac56961fd1c0">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b5cb5d9-5dce-4eef-814d-e044a54ab825">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7b332f3-4e6e-47a5-b36a-19439d2db11e">
+          <AttributeID>Is Leap Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="897eb652-ef6f-4b0c-8e57-bbe96e2e946b">
+          <AttributeID>Is Public Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a1d9e743-a56c-48b5-b3d4-70588c577ea6">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="563a7256-066d-45ab-9023-1b519160e05e">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="538e114b-c4cd-46dc-8f9d-45312c10003f">
+          <AttributeID>Nombre Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="de5a79ff-bd79-4360-b1f6-bad3ff8c567f">
+          <AttributeID>Medio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="746d6ad2-16f0-4a39-9b9a-dcb5d98fe20c">
+          <AttributeID>Dim Cuenta - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="46169704-001d-4006-b6a7-ee873064da9f">
+          <AttributeID>Id Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cd000a27-9e47-474b-aeee-4fbb92ff5fc3">
+          <AttributeID>Tipo Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="798cacc4-77be-436c-a618-5db6b847cc68">
+          <AttributeID>Dim Terminal - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2da81023-7937-4898-aa7a-850f5faea16b">
+          <AttributeID>Id Terminal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6549cdaf-7d74-41ee-9f59-c83aa141907e">
+          <AttributeID>Entidad Financiera</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f3593283-a22c-4c1f-8664-85e0e8321233">
+          <AttributeID>Dim Operacion - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d73675a-e8c7-4d87-9264-30842138c613">
+          <AttributeID>Desc Op</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="de2842a3-52e5-4e66-9fe0-0e77173092a8">
+          <AttributeID>Id Operacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="999ea4be-5f58-404c-bfc2-5a742332c043">
+          <AttributeID>Fecha S</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3d1eb3a7-e725-4a3e-a20e-eec10cb9e17a">
+          <AttributeID>Fecha E</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a8ac0478-78d6-4ab5-bdc6-bf4a0deb3a2f">
+      <ID>Id Canal</ID>
+      <Name>Id Canal</Name>
+      <DimensionID>Transacciones FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9c97ea79-f91a-4b6b-9fd8-9d379fafb679">
+          <AttributeID>Id Transaccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be476e5c-fb99-4073-8710-c6c909ac51f0">
+          <AttributeID>Total Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1eb874d9-d306-49a2-a64f-f229f5edf852">
+          <AttributeID>Max Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c5afc89-d237-4632-84f8-dc88cb9d37fa">
+          <AttributeID>Avg Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="061b39a2-f2c9-486d-8428-dbee08664873">
+          <AttributeID>Cant Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80dca77d-a480-4875-93d3-b862355ba4ff">
+          <AttributeID>Min Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a408fa8-203a-46d8-a02a-6c9e09891586">
+          <AttributeID>Ok Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="650e347b-9498-4b0a-86d6-882968e4f914">
+          <AttributeID>Fail Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="45732f3e-cc11-4170-b59c-641e6c72e167">
+          <AttributeID>Id Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3d147193-fc9f-4e87-98a5-8fd2cb077380">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d1a3ec7-5b20-4a33-b9ae-e6bf037f98c0">
+          <AttributeID>Date String</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4a81c701-6f29-4d05-b1f8-85a00321077f">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="096fa278-8a1f-46c1-b49f-e2bfcc27d131">
+          <AttributeID>Dayof Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a638ca99-012e-4052-b8f4-9533650103a1">
+          <AttributeID>Dayof Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a4b533a-b555-45b6-93d9-216ae597a35f">
+          <AttributeID>Dayof Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da01ca61-378d-4a54-a8a9-54d9d60b9589">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b71a20f1-a27e-4962-bf3e-064a6a596606">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e2f4fa9d-5b01-4b2b-af71-aaa6980b26f2">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b0e7841a-23b1-48af-b17c-e5af050f51f9">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a719604-59eb-4a1f-afdf-7d9a3664fa65">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="342bdf42-76c1-4897-8108-80ec7f2d90ef">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a473c9ac-4d8e-4e0f-a877-8edb4188b1d1">
+          <AttributeID>Is Leap Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1004f492-a64a-4d5d-a9c8-40b86e6f532d">
+          <AttributeID>Is Public Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f8154c61-d93b-44d4-bf72-e5a22513660f">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1154ab66-87c9-4acf-b54d-406756e4075c">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2d6a5edd-ffaa-4cbf-934e-f016db6f91b4">
+          <AttributeID>Nombre Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8430bf7d-8864-477d-9952-42064985fd32">
+          <AttributeID>Medio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f3bf4f6b-a266-4034-b141-c5b00c177f91">
+          <AttributeID>Dim Cuenta - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d937044-7fd5-414e-b6e7-78204711013d">
+          <AttributeID>Id Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4c72f0a7-59bb-4add-873b-aac5338c79d0">
+          <AttributeID>Tipo Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="895a3024-1584-4a44-b3ac-898a484d5234">
+          <AttributeID>Dim Terminal - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9a3a1c5-2521-40e6-a86e-408de085e751">
+          <AttributeID>Id Terminal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8e129d11-4118-449b-94df-6e583c39de92">
+          <AttributeID>Entidad Financiera</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8dda5324-48e5-4300-8599-333cc35e34a6">
+          <AttributeID>Dim Operacion - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cd68fa71-b9ec-4c89-aeb7-014040059051">
+          <AttributeID>Desc Op</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9f437993-366a-407a-b60f-49a36c4e536f">
+          <AttributeID>Id Operacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d0311c6-7ad8-4df0-a611-02609a672a4d">
+          <AttributeID>Fecha S</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e0a09a7-69c8-40e4-bbc7-a1f570a1d16a">
+          <AttributeID>Fecha E</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="aa0cfd3c-2223-4569-9ad5-166744dc374f">
+      <ID>Id Cuenta Origen</ID>
+      <Name>Id Cuenta Origen</Name>
+      <DimensionID>Transacciones FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="19630590-2e11-4e02-b544-5cc857057786">
+          <AttributeID>Id Transaccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="46cc07e5-1de5-4c01-9f68-700d9dd58ddd">
+          <AttributeID>Total Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4e968500-b7b8-46e7-9c6d-a8c15cf4ae81">
+          <AttributeID>Max Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6336a659-b815-4137-8d85-7496b497622e">
+          <AttributeID>Avg Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="97eb8c41-a1d3-4ea5-9149-6e58316f0347">
+          <AttributeID>Cant Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6db20623-29f9-4617-8919-bfe56036fc4b">
+          <AttributeID>Min Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2f9406ef-a08e-412e-b4b9-3a5f66752bd9">
+          <AttributeID>Ok Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="28c094c4-e1d4-4aba-bb9b-11ef3a2481a4">
+          <AttributeID>Fail Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3671333d-4c82-454b-a6d7-727e67b22455">
+          <AttributeID>Id Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e2497618-8d6d-4b8e-bdcd-18a9f13109bc">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="db8a4f41-234d-4c0e-b82f-e6e643f10703">
+          <AttributeID>Date String</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ef392fad-6030-4589-870e-9fd64d2ee299">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b411ca48-43db-46ca-8cd0-235c3fe0e5fc">
+          <AttributeID>Dayof Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="08232782-9a3f-4e31-b799-a38e21f1b76c">
+          <AttributeID>Dayof Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3141209d-eb80-44bf-9335-13a118e4611b">
+          <AttributeID>Dayof Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bd8ac92c-573e-4f3a-bca7-f3cf1a6185d7">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ec8547fb-1438-468d-a997-c3c508a50b2f">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e4b830ba-0fce-4644-bf93-e50c24e43f62">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9c3fdfdc-ee73-4579-8d8b-b921ca85f9cf">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="258db53f-99cb-48f6-af39-8dc04d023ed5">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aaa7b9dc-9e34-442e-9915-776835178126">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1a88a397-081b-46c8-b91f-835dfecc05ff">
+          <AttributeID>Is Leap Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6409f4b3-2201-467a-a941-9edbce1a9135">
+          <AttributeID>Is Public Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="000dbc59-d90c-43f1-ba7f-ce5dae21fd2a">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d80f165-fc2a-4f74-bf41-d5d0c0cf0bc7">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e8d808b0-c0a1-4a12-bb37-f75073a841ed">
+          <AttributeID>Nombre Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8fc05bed-cd78-4671-a772-fb3168aad4ac">
+          <AttributeID>Medio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="11b07c7f-6584-4fdd-bccc-5d6d68d8f00e">
+          <AttributeID>Dim Cuenta - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c777a5e9-0e6e-453b-a57d-6fb99d55bea0">
+          <AttributeID>Id Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c6534740-bd66-4c30-b9f2-6adecf1bcc6b">
+          <AttributeID>Tipo Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="065f76e4-784b-438c-b692-416960c17fd5">
+          <AttributeID>Dim Terminal - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="68f84525-2450-452a-8dfa-e4f11cc01997">
+          <AttributeID>Id Terminal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="880d4962-694d-4a69-9db9-9112a903151d">
+          <AttributeID>Entidad Financiera</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c70dd01d-7fc6-451d-a228-a85e1ff07fde">
+          <AttributeID>Dim Operacion - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0dd91090-0287-430f-bada-b2d595789f8a">
+          <AttributeID>Desc Op</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1a47d42d-f379-40f0-9f7c-4af2fd586242">
+          <AttributeID>Id Operacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="53cb0173-dd22-465f-811d-33098e775c34">
+          <AttributeID>Fecha S</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="337c2d1c-0b17-4ccd-a7da-2be3233e334d">
+          <AttributeID>Fecha E</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4870fa93-e139-46af-8a86-edad81ed21e0">
+      <ID>Id Terminal</ID>
+      <Name>Id Terminal</Name>
+      <DimensionID>Transacciones FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="01199866-486e-4a86-9ced-e761cc493dca">
+          <AttributeID>Id Transaccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="17470dd7-8618-46c9-93bc-7e2929b8d98a">
+          <AttributeID>Total Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f2adbbe6-c979-404a-8147-fbc2b06b5e0d">
+          <AttributeID>Max Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="568194af-324b-42c0-819e-1e5a345af07b">
+          <AttributeID>Avg Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="21b59f27-3bce-44a4-a0c5-55867fc5e126">
+          <AttributeID>Cant Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1be9f6dd-62b7-49ba-8336-359064810926">
+          <AttributeID>Min Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="488326c8-5e5d-4e73-a23b-c395281ec78e">
+          <AttributeID>Ok Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="90696a61-1df9-4bb2-a01c-8ccb0a939db8">
+          <AttributeID>Fail Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="66dbe3de-d2c9-4eb0-8d1f-dcdc2794e85f">
+          <AttributeID>Id Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6af6eb7a-3eb9-48aa-9cb6-8478c46d1da5">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b74eab25-3d95-417e-85e5-a47f8db218ff">
+          <AttributeID>Date String</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b4505a84-a3a7-400c-977b-342868b205e2">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b75e949-e07a-42e0-82d7-d527181a614d">
+          <AttributeID>Dayof Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae122958-0a92-4af8-b3c5-6c359b9b29eb">
+          <AttributeID>Dayof Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ad3da985-2c48-4830-9e7f-82c5a1f440cf">
+          <AttributeID>Dayof Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cefbb117-1a24-4a66-b407-53dfea0de8db">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fc0eef6f-cebd-4a3e-bca6-7e3469f6b102">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9f1ea35a-98d6-443b-b836-deb764b68183">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="49c303c1-b6e1-48d5-854a-2cc7afada714">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="41d0c6db-e895-4e61-8057-fe53a7b83be5">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="59e10dd5-7697-40a6-9f51-fa33bdea130a">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d33f2a79-62b6-4789-afb1-a9bdde06d810">
+          <AttributeID>Is Leap Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d94b8bae-deb0-4ac8-ac0c-40bbc5d56ed8">
+          <AttributeID>Is Public Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="017622a5-a961-4222-8afd-7abfe5b20863">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8347adc2-b9b6-4236-96cc-ba7bccb5b871">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="75122c2d-6a19-480f-894b-607af850a092">
+          <AttributeID>Nombre Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="690bdd7e-0a1b-49c7-8f5b-0bf24c89d7ca">
+          <AttributeID>Medio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3aaa2358-4d9f-4f49-bcda-53eb0d7c419f">
+          <AttributeID>Dim Cuenta - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5cb9863b-431c-4a9b-bea8-48c30c038568">
+          <AttributeID>Id Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="917ac8b9-f6a6-4d8d-a456-626a26b97f69">
+          <AttributeID>Tipo Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e64eb0e-d684-47ff-8d9b-e58cb566114f">
+          <AttributeID>Dim Terminal - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d9b7dfa8-2fcb-4cf5-a7b4-ad6bdde20b0d">
+          <AttributeID>Id Terminal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3c7e9ddf-8481-4079-bdcd-1f24525d6d0d">
+          <AttributeID>Entidad Financiera</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="19bcd093-2a7e-438f-9043-c299cbf3bb9b">
+          <AttributeID>Dim Operacion - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="db23efdf-4720-4e59-9c17-ea6ec7fce92b">
+          <AttributeID>Desc Op</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0f1754bd-228b-4006-8495-2e241f765282">
+          <AttributeID>Id Operacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c86242b7-a340-4245-abdf-3263f26d8b63">
+          <AttributeID>Fecha S</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc55cd85-76a4-413e-b609-0f119e1bd5d4">
+          <AttributeID>Fecha E</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b3f8102e-ebda-46be-8c0e-ca6d3d77569e">
+      <ID>Id Operacion</ID>
+      <Name>Id Operacion</Name>
+      <DimensionID>Transacciones FULL</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c74d9ac6-66fd-4f6b-b008-cf1710e764ca">
+          <AttributeID>Id Transaccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c17284a7-1663-4fcb-9c47-4b69c12b3f2c">
+          <AttributeID>Total Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="16497d3a-8974-4966-8bad-bcdef55ee04f">
+          <AttributeID>Max Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dbdf3fbb-2daa-44ba-abf9-d3678a44b1d5">
+          <AttributeID>Avg Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f613456-c695-49f4-9883-e6d6ce685905">
+          <AttributeID>Cant Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="14470ef4-fcc1-427c-b8c8-8ac4682892fe">
+          <AttributeID>Min Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ac12a33-50c0-4176-b1ce-1eb5ae2b43e3">
+          <AttributeID>Ok Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d5caed5-bcf6-4399-9471-c8ab8557e3a2">
+          <AttributeID>Fail Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="20e77c51-af74-45ea-8620-acbf9c62ed33">
+          <AttributeID>Id Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9d9b9e3f-09dc-4b70-9d4c-bcab0b57dd10">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8fa4004d-f647-470b-aa65-485b234e38ca">
+          <AttributeID>Date String</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e2309b61-f840-41e7-95fb-4b9864d9c7b4">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7d1a7d1-4bd4-4676-b890-f1892b34e712">
+          <AttributeID>Dayof Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ca53ba1-01d9-4b6d-a53c-323ab698e852">
+          <AttributeID>Dayof Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d073a78a-e004-4830-b94a-2cc4ee3cea08">
+          <AttributeID>Dayof Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a16a5e63-bf0a-478e-997e-809addfd6831">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="028c520a-2a97-4837-88ff-4c37c31e8b38">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b2ad0edb-5f8b-45fd-bb66-4d3f5966eeaf">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fdf4db8e-4467-46f1-9f88-57dd2b43ce08">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ee05e260-91df-44e9-9cab-f0d30a2f8681">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8407823-8dd5-4400-9817-2d9f80117ac4">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2e357042-26bd-4155-b365-99a74573d243">
+          <AttributeID>Is Leap Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2d47e3ea-40d1-46e3-94ee-59e76d697fe6">
+          <AttributeID>Is Public Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="83ac5d8a-c1b3-49e5-a140-6da022b6e74f">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a1eee89-9c5b-4359-9375-41e0552a4b76">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2da85218-a6f4-44d4-8d71-3210f256acba">
+          <AttributeID>Nombre Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e9e16c3d-9b61-40cd-ac6a-adbecf6c11d2">
+          <AttributeID>Medio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ef8aba9-5549-4b27-93c3-cb63ecf7649c">
+          <AttributeID>Dim Cuenta - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c7bbd4f8-5b64-4e4a-820f-45902d76695f">
+          <AttributeID>Id Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6c77fdaa-b11b-417b-898b-4cfb1a4d3977">
+          <AttributeID>Tipo Cuenta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8642e7ed-da9a-435e-9c92-fc09d95f9fa9">
+          <AttributeID>Dim Terminal - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="19d41a66-3e21-45cb-b87f-5b68ebb1d694">
+          <AttributeID>Id Terminal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ab22bc10-3d40-4fef-ba98-76fedb99d4e6">
+          <AttributeID>Entidad Financiera</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="db49a1af-c65d-48dd-b094-5033d1381ef0">
+          <AttributeID>Dim Operacion - Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="53465017-96e5-4362-86b2-5e554f7e05f0">
+          <AttributeID>Desc Op</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5219a5ef-046f-4799-8853-0cc0e98dc935">
+          <AttributeID>Id Operacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b106f65c-2d2b-4a01-a243-2c6ad02054e0">
+          <AttributeID>Fecha S</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a186c6a0-3e33-4d07-8c1d-efee0673e65f">
+          <AttributeID>Fecha E</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="763be051-a8ad-4570-bcd8-6de2255780bc">
+      <ID>Dim Canal</ID>
+      <Name>Dim Canal</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="50d19afb-6c4c-4694-a106-ecfb36e45cbb">
+          <ID>Dim Canal Count</ID>
+          <Name>Dim Canal Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="df2e5833-8601-46ed-a234-c65d401d22ce">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="19779455-42ce-4b25-bbbf-60c650166c86">
+              <TableID>dbo_Dim_Canal</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="7bd80c47-5d6a-4e55-9c93-c61f8b29d50d">
+          <CubeDimensionID>Canal FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c36b7fbf-7c57-485c-88d2-484e7f81e42a">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="020a0e8d-2fd1-4abd-aaa2-b8f7ab59f8e9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3021e5a3-132d-4561-9d97-85a800ae6cb1">
+                    <TableID>dbo_Dim_Canal</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="3012c628-61a8-4671-a409-cab350253d16">
+      <ID>Dim Cliente</ID>
+      <Name>Dim Cliente</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="44d3ac95-f847-4145-ba30-94f1a2ee207d">
+          <ID>Id Viejo</ID>
+          <Name>Id Viejo</Name>
+          <Source dwd:design-time-name="16808a6e-4782-402b-906d-8cfc8e57b9a3">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d85478f3-4370-4702-ba8d-5ec1be2ec50b">
+              <TableID>dbo_Dim_Cliente</TableID>
+              <ColumnID>id_viejo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ca97a44d-79f5-4a2c-8c6c-454df97e570b">
+          <ID>Ingresos</ID>
+          <Name>Ingresos</Name>
+          <Source dwd:design-time-name="7cda5b5d-6ba8-486f-a632-2e81a564ec54">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5d606da7-95e1-4b20-8863-8c47a4b76ec9">
+              <TableID>dbo_Dim_Cliente</TableID>
+              <ColumnID>ingresos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d03636f2-f1b4-4a8f-93f8-2c0649d3f069">
+          <ID>Dim Cliente Count</ID>
+          <Name>Dim Cliente Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="97e90957-5c54-42ba-829b-d3d9abc6c5e5">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="705c7638-7fbe-4ea0-ad52-f2a804c10d0f">
+              <TableID>dbo_Dim_Cliente</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="acb64ff7-2ad5-4e7f-96b9-5fcde402c0a2">
+          <CubeDimensionID>Cliente FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="95596531-ab7b-4388-874a-0e8ee1c6c322">
+              <AttributeID>Id Cliente</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="636afa27-6cd6-44e8-b429-b618b2a0e909">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="72b5feec-7abd-4b3c-b860-35acc32a6d0c">
+                    <TableID>dbo_Dim_Cliente</TableID>
+                    <ColumnID>id_cliente</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="d0b21109-e3c9-424f-93f8-824fd531979a">
+      <ID>Dim Cuenta</ID>
+      <Name>Dim Cuenta</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="855c036e-8972-490a-98bf-3623a4c5fa72">
+          <ID>Dim Cuenta Count</ID>
+          <Name>Dim Cuenta Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="e6f4f801-b5ea-4138-995e-89197b54b118">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="b33dda59-ab73-42a8-bcb2-88eedd67c6bd">
+              <TableID>dbo_Dim_Cuenta</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="09fe4924-a16a-434b-9c8e-05110798852c">
+          <CubeDimensionID>Cuenta FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="34957e32-bf0c-4edc-824b-14748b39f445">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a44103a6-dd7e-40e9-845d-a48924d3704e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0c1e956e-7c3d-4f24-9b05-975d015f7377">
+                    <TableID>dbo_Dim_Cuenta</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="b27fdde8-1741-446e-b913-1578689279ab">
+      <ID>Dim Ciudad</ID>
+      <Name>Dim Ciudad</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="412a37d6-f5d3-4553-ace6-72828f81f3d1">
+          <ID>Poblacion</ID>
+          <Name>Poblacion</Name>
+          <Source dwd:design-time-name="f4ec7ec4-403d-4033-acb4-773978b94180">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4c9310d1-16d5-4de5-b5fc-9be60274507b">
+              <TableID>dbo_Dim_Ciudad</TableID>
+              <ColumnID>poblacion</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="40027be0-9bcd-4f58-a1cf-fa8a8c076190">
+          <ID>Dim Ciudad Count</ID>
+          <Name>Dim Ciudad Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="216403a7-7564-4f96-b97d-8330cd1612c7">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="b4598509-d7db-4a6c-82c7-000833f871a6">
+              <TableID>dbo_Dim_Ciudad</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="39c4193c-ca55-4dda-8d1c-99644d0fb464">
+          <CubeDimensionID>CIUDAD FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fc00e42b-91fd-4fa2-b7b7-d8cf2105adfe">
+              <AttributeID>Id Ciudad</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="aa9a80a6-93ff-4074-8437-7269b6d05724">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a87bc051-ed07-4e20-9862-429f06e115d1">
+                    <TableID>dbo_Dim_Ciudad</TableID>
+                    <ColumnID>id_ciudad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="015fbb74-5fff-4ea7-826a-ff3d4420180a">
+          <CubeDimensionID>Id Provincia</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7be727e7-db1c-4ac1-b2b9-66cc60a26a26">
+              <AttributeID>Id Provincia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="85335368-ddec-41b7-8c00-74486258c4c6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fd714b12-ec37-4fcb-9a3c-53577e43f0a2">
+                    <TableID>dbo_Dim_Ciudad</TableID>
+                    <ColumnID>id_provincia</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="1c375443-4926-479a-8edc-fe70ae37f6e6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2ba2d725-eda6-41fb-a686-a865a796fdde">
+                    <TableID>dbo_Dim_Ciudad</TableID>
+                    <ColumnID>id_pais</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="a4069900-0451-40db-928e-6e33f23aeadb">
+      <ID>Dim Operacion</ID>
+      <Name>Dim Operacion</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ba5847b2-f302-4292-bc91-00551f7afdad">
+          <ID>Dim Operacion Count</ID>
+          <Name>Dim Operacion Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="ea531cd1-be73-4a9f-9e80-5448c7efd498">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="d90d42c0-3216-4629-aea8-a479f76cc24b">
+              <TableID>dbo_Dim_Operacion</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="31c72ac0-017a-4f76-9daa-cfcaa7bfedc4">
+          <CubeDimensionID>Operacion FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c63a3f6d-1ed4-460f-8450-349c05d236a7">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c99ec226-ae96-4299-83e9-4f57bc335b2d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d949f172-6569-4422-9188-9916f203c053">
+                    <TableID>dbo_Dim_Operacion</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="0fb4a06c-03e8-4c19-baa8-3451e84c4c16">
+      <ID>Dim Pais</ID>
+      <Name>Dim Pais</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c5ea1da5-0e48-44b2-a8e2-3c75adb205f9">
+          <ID>Dim Pais Count</ID>
+          <Name>Dim Pais Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="bdb0b2c4-84b1-4124-8524-d9e4000c7cd0">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="424a21dd-0f98-445a-b308-4bce5aa2be67">
+              <TableID>dbo_Dim_Pais</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="7cb04003-dfdd-4bee-b243-b7c6440566dc">
+          <CubeDimensionID>PAIS FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3fd702ab-2342-4a0a-9818-ca8f43bdbeb8">
+              <AttributeID>Id Pais</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="86e601b7-247a-492a-9be2-bff28c5650eb">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="445313b5-aee1-4306-b5fd-224f119130ce">
+                    <TableID>dbo_Dim_Pais</TableID>
+                    <ColumnID>id_pais</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="d3d2fddd-0792-4503-a193-041855cddb20">
+      <ID>Dim Provincia</ID>
+      <Name>Dim Provincia</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5ec5644f-8c52-40ee-95f7-9487a7d874c5">
+          <ID>Dim Provincia Count</ID>
+          <Name>Dim Provincia Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0a76dbb6-0069-488f-a3ca-1a782e4d4cf5">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="61657966-92b0-41c2-8a5f-e7ef7baec916">
+              <TableID>dbo_Dim_Provincia</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d6845c2c-cace-4b49-82bf-8c55216109a6">
+          <CubeDimensionID>Provincia FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b32d15b9-6574-48c2-a854-a76e936f3443">
+              <AttributeID>Id Provincia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="42ca9510-cbf5-4994-885d-93d35765b80a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ec97aca7-d44c-45c4-9631-1d1705a5c6dc">
+                    <TableID>dbo_Dim_Provincia</TableID>
+                    <ColumnID>id_provincia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cd9335b6-362c-41c5-85da-5c20f1ebdea8">
+          <CubeDimensionID>CIUDAD FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="014dc771-2f9d-4e82-9e55-85ae6a9fa913">
+              <AttributeID>Id Pais</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d3ea6768-bd2a-4a51-aaa6-991e7b315f31">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3853d441-f334-4bbb-bde4-f10f5dae9a76">
+                    <TableID>dbo_Dim_Provincia</TableID>
+                    <ColumnID>id_pais</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="baffc194-7953-411b-8f84-a53ffa93f9ff">
+      <ID>Dim Terminal</ID>
+      <Name>Dim Terminal</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="87accda4-9b7d-47b2-b541-6a6e6890bd8f">
+          <ID>Dim Terminal Count</ID>
+          <Name>Dim Terminal Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="a9473cb1-ec40-4a79-8727-ff89f3c90fbf">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="57023d01-a694-42ed-8405-24d64f748203">
+              <TableID>dbo_Dim_Terminal</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9a76f8ec-8701-4fbc-855d-85f5047f0ed6">
+          <CubeDimensionID>Terminal FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="76eb863b-29af-4611-a594-2370a5a5317d">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="caef13eb-0e6e-413b-bb3f-d9a62930f73b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="58e1f5fc-c7b9-4a19-b0e8-f01a13c4d127">
+                    <TableID>dbo_Dim_Terminal</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="4f511cd2-becd-4b66-b15a-924114539776">
+      <ID>Dim Tiempo</ID>
+      <Name>Dim Tiempo</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="2f421733-9526-4898-b5fe-06128a74d755">
+          <ID>Day</ID>
+          <Name>Day</Name>
+          <Source dwd:design-time-name="3d37a2ec-d72d-414d-88f2-75c51cb01312">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b1c44672-3b54-4d00-895b-5c3221abb236">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>Day</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a1e16b1a-b60f-4a00-a350-35436383976d">
+          <ID>Dayof Year</ID>
+          <Name>Dayof Year</Name>
+          <Source dwd:design-time-name="67e2cb7c-2324-4de2-93c2-097df1123d7c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c9a351c5-c04d-4f9a-9ed5-7e4985d25b72">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>DayofYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f571a588-697e-4374-9cac-0f8a695532a6">
+          <ID>Dayof Week</ID>
+          <Name>Dayof Week</Name>
+          <Source dwd:design-time-name="27e7bf1c-dadc-4c9b-b14c-bbc5cf7d8885">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aabcdf37-6787-4b6e-ba4e-35300dbd8640">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>DayofWeek</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5eafa038-4574-4bde-9d37-3c81d1f7be08">
+          <ID>Week</ID>
+          <Name>Week</Name>
+          <Source dwd:design-time-name="82e936f4-06c2-4c73-8b9b-03c3fa23464d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="26b8535f-3639-4f96-ab78-fa6548a064c6">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>Week</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ff6bfc33-45a4-4e4f-84b4-1cac1ff90f2f">
+          <ID>Month</ID>
+          <Name>Month</Name>
+          <Source dwd:design-time-name="57786174-8c1d-486e-9472-0ec4ab12925f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="90e4a59a-8f8e-4f14-ab49-7703baeecac8">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>Month</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="995d715b-7e98-4552-bad6-670b2f149e29">
+          <ID>Quarter</ID>
+          <Name>Quarter</Name>
+          <Source dwd:design-time-name="7afd55d4-c062-4471-a0c4-26ec1748ea04">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2f3818d7-cc60-4005-b853-40c18a4d24de">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>Quarter</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="851479a9-33fc-4800-8547-32a797e26243">
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <Source dwd:design-time-name="051cd942-1e24-4ac7-87c4-0efa9ee4ae15">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e7b73d27-b9ed-4e02-a1a1-14add6cab2a0">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>Year</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ebe5c9a6-4933-4902-b4a9-05cc99235db7">
+          <ID>Dim Tiempo Count</ID>
+          <Name>Dim Tiempo Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="54854b12-bbf3-4c71-8e71-b29572ce39e0">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="1edd4bca-d182-413e-b2f5-b93d186b4b54">
+              <TableID>dbo_Dim_Tiempo</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="a7e9c0ca-75cd-4c4c-b3b0-f1152611c644">
+          <CubeDimensionID>TIEMPO FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d06420c9-c872-4196-b0b7-6111b89d3027">
+              <AttributeID>Id Tiempo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5b556fb2-685d-4f1b-a3b7-3fa2284bf952">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8ab03fe5-e79d-4015-8b1b-42b21e87c205">
+                    <TableID>dbo_Dim_Tiempo</TableID>
+                    <ColumnID>id_tiempo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="23a67b49-7124-486c-abf2-157cc1378dfd">
+      <ID>Titular</ID>
+      <Name>Titular</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="fc74b893-9eab-4861-8de0-f19bc98097fc">
+          <ID>Titular Count</ID>
+          <Name>Titular Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0f404142-60e0-451f-a035-c3ed50629817">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="3d7b98f6-6b8e-4325-86b5-1e18c6b64baf">
+              <TableID>dbo_Titular</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="42a279c7-8f36-4390-b546-8e7bd93e4ec5">
+          <CubeDimensionID>Transacciones FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7536f67d-c9f0-4035-aceb-8ae8f68e1661">
+              <AttributeID>Dim Cuenta - Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e00b20d4-6a6e-4ff6-8f45-18ee577650f0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="16a701cd-437a-408e-afe5-532928c9e42d">
+                    <TableID>dbo_Titular</TableID>
+                    <ColumnID>id_cuenta</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="ed175d87-5851-4bbe-ba76-015a92cf37e2">
+      <ID>Facts Transaccion</ID>
+      <Name>Facts Transaccion</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="93884809-ee36-490d-8cb6-1344310f1b45">
+          <ID>Total Monto</ID>
+          <Name>Total Monto</Name>
+          <Source dwd:design-time-name="d638c490-d9a3-4d7e-b0cd-3b07a51109ec">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b44f94e1-4d5c-45da-9148-7606959ead42">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>total_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="800676f2-625e-4dae-8890-671f660bed40">
+          <ID>Max Monto</ID>
+          <Name>Max Monto</Name>
+          <Source dwd:design-time-name="2cb84b70-3ecb-4b51-935f-7b98e9de4d2c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f6969a4e-724a-460c-ad37-08e645eca742">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>max_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f1a0c90c-fca1-48ea-9a1d-9373efb86852">
+          <ID>Avg Monto</ID>
+          <Name>Avg Monto</Name>
+          <Source dwd:design-time-name="f5fce49a-4438-4633-9acf-fd480416ce7a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3ea251f4-96dd-47fe-a622-315f7137091c">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>avg_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4d0d4e89-3e17-4eeb-b3b3-1a02ed017e12">
+          <ID>Cant Transacciones</ID>
+          <Name>Cant Transacciones</Name>
+          <Source dwd:design-time-name="4bb0223c-681c-432a-ae6d-dcc0367374bc">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="73ae136f-1424-43c0-8a98-d9b27bed6455">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>cant_transacciones</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d9aa5b7d-1c10-4fdd-86c3-cb5e91a2f024">
+          <ID>Min Monto</ID>
+          <Name>Min Monto</Name>
+          <Source dwd:design-time-name="99493757-6142-4cc4-b02b-8a461fdc6acf">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a948166d-ecf7-48c5-96f2-53a51d8a3b0c">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>min_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c766ace7-e746-4f15-8c30-b85e4b3eebe2">
+          <ID>Facts Transaccion Count</ID>
+          <Name>Facts Transaccion Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="3312a262-217e-4a8a-aa3c-e4afe098e53b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="d1fb0d23-5aea-4f9d-b0ee-2a2064b63573">
+              <TableID>dbo_Facts_Transaccion</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ece32734-1e29-441f-82fb-d8993f1681c1">
+          <CubeDimensionID>Transacciones FULL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="26708400-5fd4-4905-a7f4-c26f54af470c">
+              <AttributeID>Id Transaccion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="336796ed-065a-4fbb-b6f6-10a4e19d5925">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="91a11826-4f7d-4b7e-8ea6-adb196ef9ca1">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_transaccion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6b9b1658-0cc7-4c88-9f53-052e521193f1">
+          <CubeDimensionID>Id Tiempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6855852f-1636-4d82-87ed-4cf5f733464c">
+              <AttributeID>Id Tiempo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e18dadce-5643-487f-882d-cb3389e3cff9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="35d5158a-35a8-49f9-8312-35d27c620ac3">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_tiempo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f3dc43f9-76b9-4fc1-89f9-5158d92c1113">
+          <CubeDimensionID>Id Canal</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6f1c6480-9209-44d7-85a3-4c37de357513">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0b2526e2-8e0a-4153-9e12-ae7003f99b68">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="742f982f-20bd-441c-8bd8-3f53d0b5cc52">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_canal</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2d522443-26e3-4f63-b721-1c26ec5dee65">
+          <CubeDimensionID>Id Cuenta Origen</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6498faf3-b978-401a-9828-9b37a4ccc1bd">
+              <AttributeID>Dim Cuenta - Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4a22cf3e-4392-4bff-bdcc-923581259d0e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9a4e8bcb-4817-4e31-8ce9-3f007e1985da">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_cuentaOrigen</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bb74f706-fb38-4d83-b279-d1e061d716d6">
+          <CubeDimensionID>Id Terminal</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="465c62f6-7422-4dd3-a59d-58df7adf7264">
+              <AttributeID>Dim Terminal - Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2b16ff94-6704-4d26-ae4d-fb077490e5d0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ce6bd1d5-5b6e-42fb-b72e-a95b70dd8fd1">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_terminal</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="daa5ee69-5c69-44fa-8d08-6bb6ebfd0879">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="01ddbdaa-7747-4690-823b-403a7219c4e7">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_ciudad</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="80533d6b-3c29-4aca-93f8-9ae8a1da8e75">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="18c38e95-f880-4058-afd3-c8b180aad8cc">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_provincia</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="69d59333-f50a-4728-9cc2-659a836de16e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c8d179ca-9f4c-48f3-a980-4acc0912f236">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_pais</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="28132d57-2d25-4c7a-8033-a7e8d35e3c9e">
+          <CubeDimensionID>Id Operacion</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d3411930-c9dd-4a2c-ad96-ba26879d1249">
+              <AttributeID>Dim Operacion - Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="57e9ece8-de30-4c98-8c5f-412ef1de1df8">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0423d334-a078-47ac-8561-c31649e589dd">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_operacion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="b6aca4a5-8a45-4d23-810e-06375ab8105b">
+    <DataSourceViewID>Completo</DataSourceViewID>
+  </Source>
+</Cube>

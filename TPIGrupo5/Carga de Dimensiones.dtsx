@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Carga de Dimensiones"
   DTS:PackageType="5"
-  DTS:VersionBuild="681"
-  DTS:VersionGUID="{7153D1B0-2742-4CAD-8358-74A83ADF6635}">
+  DTS:VersionBuild="686"
+  DTS:VersionGUID="{5F79072A-79C0-42A6-803D-8D83E9EDA571}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -4249,7 +4249,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Id"
-              DTS:DTSID="{CCF592EE-2B79-46BB-8CC0-6B7D69DF0BD7}"
+              DTS:DTSID="{267CB0DD-95D5-48DE-B355-35AD632E53DF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4258,7 +4258,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Entidad financiera"
-              DTS:DTSID="{B1811ABF-6E22-474B-A16A-01FB7BDE8F8B}"
+              DTS:DTSID="{B290E8EE-30AC-4E7F-86E3-0E8C74853ADD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4267,7 +4267,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Dirección"
-              DTS:DTSID="{34FA76AE-3051-4C28-A333-EC23609B435D}"
+              DTS:DTSID="{C7D4ED14-C580-4589-91FB-E75CBE21F765}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4276,7 +4276,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Localidad"
-              DTS:DTSID="{9F7983DB-9504-4762-9167-2C9CB2F4A8DB}"
+              DTS:DTSID="{BEEC050E-5183-4B3D-A679-90B82FEC8ADC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4285,7 +4285,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CP"
-              DTS:DTSID="{80848462-4435-41D6-8213-DAF873D90E14}"
+              DTS:DTSID="{61705980-D8DC-409B-A9C5-61997247FDCD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4294,7 +4294,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Telediscado"
-              DTS:DTSID="{5E8D6106-7C70-4B59-96B4-4C9B0DA85F72}"
+              DTS:DTSID="{D1DFA862-EF93-4D83-B288-9BCCE8810B2C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4303,7 +4303,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Teléfono"
-              DTS:DTSID="{F8A96456-D616-41AF-A4BD-F43CA9ABE799}"
+              DTS:DTSID="{CBB44696-DEA7-4B1E-B73B-B3FC6E0B3B51}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4312,7 +4312,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Fax"
-              DTS:DTSID="{F2ABB5E4-094C-4206-8CD1-B56367D0541F}"
+              DTS:DTSID="{2299FA16-2F9E-451C-9705-8FB282EF9F69}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4321,25 +4321,25 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Caj Aut "
-              DTS:DTSID="{D0E28FCF-8324-44F5-A1F9-EA5193C64166}"
+              DTS:DTSID="{9B1E0C1D-193C-4E08-BC60-9D7581820215}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Latitud"
-              DTS:DTSID="{B36AD9BF-2516-438F-8ECA-5F998CAEDEDD}"
+              DTS:DTSID="{236F87BB-2332-4466-A0A3-17CFECEB124B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Longitud"
-              DTS:DTSID="{BB8939B9-4445-47DC-BBA4-D1605ACF1BD3}"
+              DTS:DTSID="{1376A98B-CD2D-4352-9D59-4EE140E3B2A6}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -8895,19 +8895,19 @@ where [refTable].[provincia] = ?</property>
               startId="Package\Carga Ciudades\Derived Column 1.Outputs[Derived Column Output]" />
             <path
               refId="Package\Carga Ciudades.Paths[Flat File Source Output1]"
+              endId="Package\Carga Ciudades\Sort 1.Inputs[Sort Input]"
+              name="Flat File Source Output"
+              startId="Package\Carga Ciudades\Localidad.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Carga Ciudades.Paths[Flat File Source Output2]"
               endId="Package\Carga Ciudades\Sort 2.Inputs[Sort Input]"
               name="Flat File Source Output"
               startId="Package\Carga Ciudades\Provincias.Outputs[Flat File Source Output]" />
             <path
-              refId="Package\Carga Ciudades.Paths[Flat File Source Output2]"
+              refId="Package\Carga Ciudades.Paths[Flat File Source Output]"
               endId="Package\Carga Ciudades\Lookup.Inputs[Lookup Input]"
               name="Flat File Source Output"
               startId="Package\Carga Ciudades\Flat File Source.Outputs[Flat File Source Output]" />
-            <path
-              refId="Package\Carga Ciudades.Paths[Flat File Source Output]"
-              endId="Package\Carga Ciudades\Sort 1.Inputs[Sort Input]"
-              name="Flat File Source Output"
-              startId="Package\Carga Ciudades\Localidad.Outputs[Flat File Source Output]" />
             <path
               refId="Package\Carga Ciudades.Paths[Lookup Error Output]"
               endId="Package\Carga Ciudades\Errores.Inputs[Flat File Destination Input]"
@@ -8935,19 +8935,19 @@ where [refTable].[provincia] = ?</property>
               startId="Package\Carga Ciudades\Merge Join 1.Outputs[Merge Join Output]" />
             <path
               refId="Package\Carga Ciudades.Paths[Sort Output2]"
-              endId="Package\Carga Ciudades\Merge Join.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Carga Ciudades\Sort 2.Outputs[Sort Output]" />
-            <path
-              refId="Package\Carga Ciudades.Paths[Sort Output]"
               endId="Package\Carga Ciudades\Merge Join 1.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Carga Ciudades\Sort 3.Outputs[Sort Output]" />
             <path
-              refId="Package\Carga Ciudades.Paths[Sort Output1]"
+              refId="Package\Carga Ciudades.Paths[Sort Output]"
               endId="Package\Carga Ciudades\Merge Join.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Carga Ciudades\Sort 1.Outputs[Sort Output]" />
+            <path
+              refId="Package\Carga Ciudades.Paths[Sort Output1]"
+              endId="Package\Carga Ciudades\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Carga Ciudades\Sort 2.Outputs[Sort Output]" />
             <path
               refId="Package\Carga Ciudades.Paths[Sort Output3]"
               endId="Package\Carga Ciudades\Conditional Split.Inputs[Conditional Split Input]"
@@ -15508,7 +15508,7 @@ where [refTable].[iso] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Carga de Provincias\868:invalid};</property>
+                  name="ParameterMap">#{Package\Carga de Provincias\845:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -22051,6 +22051,18 @@ where [refTable].[nombre] = ?</property>
                       cachedLength="50"
                       cachedName="Id"
                       lineageId="Package\Carga Terminales\Sort.Outputs[Sort Output].Columns[Id]" />
+                    <inputColumn
+                      refId="Package\Carga Terminales\Merge Join.Inputs[Merge Join Left Input].Columns[Longitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Longitud"
+                      lineageId="Package\Carga Terminales\Sort.Outputs[Sort Output].Columns[Longitud]" />
+                    <inputColumn
+                      refId="Package\Carga Terminales\Merge Join.Inputs[Merge Join Left Input].Columns[Latitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Latitud"
+                      lineageId="Package\Carga Terminales\Sort.Outputs[Sort Output].Columns[Latitud]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -22142,6 +22154,34 @@ where [refTable].[nombre] = ?</property>
                           name="InputColumnID">#{Package\Carga Terminales\Merge Join.Inputs[Merge Join Right Input].Columns[codcalle]}</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Merge Join.Outputs[Merge Join Output].Columns[Longitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Merge Join.Outputs[Merge Join Output].Columns[Longitud]"
+                      name="Longitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Carga Terminales\Merge Join.Inputs[Merge Join Left Input].Columns[Longitud]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Merge Join.Outputs[Merge Join Output].Columns[Latitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Merge Join.Outputs[Merge Join Output].Columns[Latitud]"
+                      name="Latitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Carga Terminales\Merge Join.Inputs[Merge Join Left Input].Columns[Latitud]}</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -22205,6 +22245,18 @@ where [refTable].[nombre] = ?</property>
                       cachedLength="50"
                       cachedName="Id"
                       lineageId="Package\Carga Terminales\Sort 3.Outputs[Sort Output].Columns[Id]" />
+                    <inputColumn
+                      refId="Package\Carga Terminales\Merge Join 1.Inputs[Merge Join Left Input].Columns[Longitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Longitud"
+                      lineageId="Package\Carga Terminales\Sort 3.Outputs[Sort Output].Columns[Longitud]" />
+                    <inputColumn
+                      refId="Package\Carga Terminales\Merge Join 1.Inputs[Merge Join Left Input].Columns[Latitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Latitud"
+                      lineageId="Package\Carga Terminales\Sort 3.Outputs[Sort Output].Columns[Latitud]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -22311,6 +22363,34 @@ where [refTable].[nombre] = ?</property>
                           name="InputColumnID">#{Package\Carga Terminales\Merge Join 1.Inputs[Merge Join Right Input].Columns[codloc]}</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Merge Join 1.Outputs[Merge Join Output].Columns[Longitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Merge Join 1.Outputs[Merge Join Output].Columns[Longitud]"
+                      name="Longitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Carga Terminales\Merge Join 1.Inputs[Merge Join Left Input].Columns[Longitud]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Merge Join 1.Outputs[Merge Join Output].Columns[Latitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Merge Join 1.Outputs[Merge Join Output].Columns[Latitud]"
+                      name="Latitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Carga Terminales\Merge Join 1.Inputs[Merge Join Left Input].Columns[Latitud]}</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -22374,6 +22454,18 @@ where [refTable].[nombre] = ?</property>
                       cachedLength="50"
                       cachedName="Id"
                       lineageId="Package\Carga Terminales\Sort 4.Outputs[Sort Output].Columns[Id]" />
+                    <inputColumn
+                      refId="Package\Carga Terminales\Merge Join 2.Inputs[Merge Join Left Input].Columns[Latitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Latitud"
+                      lineageId="Package\Carga Terminales\Sort 4.Outputs[Sort Output].Columns[Latitud]" />
+                    <inputColumn
+                      refId="Package\Carga Terminales\Merge Join 2.Inputs[Merge Join Left Input].Columns[Longitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Longitud"
+                      lineageId="Package\Carga Terminales\Sort 4.Outputs[Sort Output].Columns[Longitud]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -22478,6 +22570,34 @@ where [refTable].[nombre] = ?</property>
                           name="InputColumnID">#{Package\Carga Terminales\Merge Join 2.Inputs[Merge Join Right Input].Columns[localidad]}</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Merge Join 2.Outputs[Merge Join Output].Columns[Latitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Merge Join 2.Outputs[Merge Join Output].Columns[Latitud]"
+                      name="Latitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Carga Terminales\Merge Join 2.Inputs[Merge Join Left Input].Columns[Latitud]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Merge Join 2.Outputs[Merge Join Output].Columns[Longitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Merge Join 2.Outputs[Merge Join Output].Columns[Longitud]"
+                      name="Longitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Carga Terminales\Merge Join 2.Inputs[Merge Join Left Input].Columns[Longitud]}</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -22574,6 +22694,40 @@ where [refTable].[nombre] = ?</property>
                           name="NewSortKeyPosition">0</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Terminales\Sort.Inputs[Sort Input].Columns[Latitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Latitud"
+                      lineageId="Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].Columns[Latitud]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Terminales\Sort.Inputs[Sort Input].Columns[Longitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Longitud"
+                      lineageId="Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].Columns[Longitud]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -22639,6 +22793,34 @@ where [refTable].[nombre] = ?</property>
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].Columns[Localidad]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Sort.Outputs[Sort Output].Columns[Latitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Sort.Outputs[Sort Output].Columns[Latitud]"
+                      name="Latitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].Columns[Latitud]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Sort.Outputs[Sort Output].Columns[Longitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Sort.Outputs[Sort Output].Columns[Longitud]"
+                      name="Longitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].Columns[Longitud]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -22949,6 +23131,40 @@ where [refTable].[nombre] = ?</property>
                           name="NewSortKeyPosition">1</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Terminales\Sort 3.Inputs[Sort Input].Columns[Longitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Longitud"
+                      lineageId="Package\Carga Terminales\Merge Join.Outputs[Merge Join Output].Columns[Longitud]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Terminales\Sort 3.Inputs[Sort Input].Columns[Latitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Latitud"
+                      lineageId="Package\Carga Terminales\Merge Join.Outputs[Merge Join Output].Columns[Latitud]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -23015,6 +23231,34 @@ where [refTable].[nombre] = ?</property>
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\Carga Terminales\Merge Join.Outputs[Merge Join Output].Columns[codcalle]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Sort 3.Outputs[Sort Output].Columns[Longitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Sort 3.Outputs[Sort Output].Columns[Longitud]"
+                      name="Longitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Terminales\Merge Join.Outputs[Merge Join Output].Columns[Longitud]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Sort 3.Outputs[Sort Output].Columns[Latitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Sort 3.Outputs[Sort Output].Columns[Latitud]"
+                      name="Latitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Terminales\Merge Join.Outputs[Merge Join Output].Columns[Latitud]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -23114,6 +23358,40 @@ where [refTable].[nombre] = ?</property>
                           name="NewSortKeyPosition">1</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Terminales\Sort 4.Inputs[Sort Input].Columns[Longitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Longitud"
+                      lineageId="Package\Carga Terminales\Merge Join 1.Outputs[Merge Join Output].Columns[Longitud]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Carga Terminales\Sort 4.Inputs[Sort Input].Columns[Latitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Latitud"
+                      lineageId="Package\Carga Terminales\Merge Join 1.Outputs[Merge Join Output].Columns[Latitud]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -23180,6 +23458,34 @@ where [refTable].[nombre] = ?</property>
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\Carga Terminales\Merge Join 1.Outputs[Merge Join Output].Columns[codloc]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Sort 4.Outputs[Sort Output].Columns[Longitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Sort 4.Outputs[Sort Output].Columns[Longitud]"
+                      name="Longitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Terminales\Merge Join 1.Outputs[Merge Join Output].Columns[Longitud]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Sort 4.Outputs[Sort Output].Columns[Latitud]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Sort 4.Outputs[Sort Output].Columns[Latitud]"
+                      name="Latitud">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Carga Terminales\Merge Join 1.Outputs[Merge Join Output].Columns[Latitud]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -23394,6 +23700,20 @@ where [refTable].[nombre] = ?</property>
                       cachedName="id_pais"
                       externalMetadataColumnId="Package\Carga Terminales\Terminal Destination.Inputs[OLE DB Destination Input].ExternalColumns[id_pais]"
                       lineageId="Package\Carga Terminales\Derived Column 1.Outputs[Derived Column Output].Columns[id_pais]" />
+                    <inputColumn
+                      refId="Package\Carga Terminales\Terminal Destination.Inputs[OLE DB Destination Input].Columns[Longitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Longitud"
+                      externalMetadataColumnId="Package\Carga Terminales\Terminal Destination.Inputs[OLE DB Destination Input].ExternalColumns[longitud]"
+                      lineageId="Package\Carga Terminales\Merge Join 2.Outputs[Merge Join Output].Columns[Longitud]" />
+                    <inputColumn
+                      refId="Package\Carga Terminales\Terminal Destination.Inputs[OLE DB Destination Input].Columns[Latitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Latitud"
+                      externalMetadataColumnId="Package\Carga Terminales\Terminal Destination.Inputs[OLE DB Destination Input].ExternalColumns[latitud]"
+                      lineageId="Package\Carga Terminales\Merge Join 2.Outputs[Merge Join Output].Columns[Latitud]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -23423,6 +23743,16 @@ where [refTable].[nombre] = ?</property>
                       dataType="wstr"
                       length="255"
                       name="entidad_financiera" />
+                    <externalMetadataColumn
+                      refId="Package\Carga Terminales\Terminal Destination.Inputs[OLE DB Destination Input].ExternalColumns[longitud]"
+                      dataType="wstr"
+                      length="255"
+                      name="longitud" />
+                    <externalMetadataColumn
+                      refId="Package\Carga Terminales\Terminal Destination.Inputs[OLE DB Destination Input].ExternalColumns[latitud]"
+                      dataType="wstr"
+                      length="255"
+                      name="latitud" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -23555,6 +23885,20 @@ where [refTable].[nombre] = ?</property>
                       cachedName="id_pais"
                       externalMetadataColumnId="Package\Carga Terminales\Terminal destination 2.Inputs[OLE DB Destination Input].ExternalColumns[id_pais]"
                       lineageId="Package\Carga Terminales\Lookup.Outputs[Lookup Match Output].Columns[id_pais]" />
+                    <inputColumn
+                      refId="Package\Carga Terminales\Terminal destination 2.Inputs[OLE DB Destination Input].Columns[Longitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Longitud"
+                      externalMetadataColumnId="Package\Carga Terminales\Terminal destination 2.Inputs[OLE DB Destination Input].ExternalColumns[longitud]"
+                      lineageId="Package\Carga Terminales\Merge Join 2.Outputs[Merge Join Output].Columns[Longitud]" />
+                    <inputColumn
+                      refId="Package\Carga Terminales\Terminal destination 2.Inputs[OLE DB Destination Input].Columns[Latitud]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Latitud"
+                      externalMetadataColumnId="Package\Carga Terminales\Terminal destination 2.Inputs[OLE DB Destination Input].ExternalColumns[latitud]"
+                      lineageId="Package\Carga Terminales\Merge Join 2.Outputs[Merge Join Output].Columns[Latitud]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -23584,6 +23928,16 @@ where [refTable].[nombre] = ?</property>
                       dataType="wstr"
                       length="255"
                       name="entidad_financiera" />
+                    <externalMetadataColumn
+                      refId="Package\Carga Terminales\Terminal destination 2.Inputs[OLE DB Destination Input].ExternalColumns[longitud]"
+                      dataType="wstr"
+                      length="255"
+                      name="longitud" />
+                    <externalMetadataColumn
+                      refId="Package\Carga Terminales\Terminal destination 2.Inputs[OLE DB Destination Input].ExternalColumns[latitud]"
+                      dataType="wstr"
+                      length="255"
+                      name="latitud" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -23727,6 +24081,48 @@ where [refTable].[nombre] = ?</property>
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].Columns[Latitud]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].ExternalColumns[Latitud]"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].Columns[Latitud]"
+                      name="Latitud"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].Columns[Longitud]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].ExternalColumns[Longitud]"
+                      length="255"
+                      lineageId="Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].Columns[Longitud]"
+                      name="Longitud"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -23778,12 +24174,12 @@ where [refTable].[nombre] = ?</property>
                     <externalMetadataColumn
                       refId="Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].ExternalColumns[Latitud]"
                       dataType="wstr"
-                      length="50"
+                      length="255"
                       name="Latitud" />
                     <externalMetadataColumn
                       refId="Package\Carga Terminales\Terminales.Outputs[Flat File Source Output].ExternalColumns[Longitud]"
                       dataType="wstr"
-                      length="50"
+                      length="255"
                       name="Longitud" />
                   </externalMetadataColumns>
                 </output>
@@ -23860,44 +24256,44 @@ where [refTable].[nombre] = ?</property>
               startId="Package\Carga Terminales\Lookup.Outputs[Lookup No Match Output]" />
             <path
               refId="Package\Carga Terminales.Paths[Merge Join Output2]"
-              endId="Package\Carga Terminales\Lookup.Inputs[Lookup Input]"
-              name="Merge Join Output"
-              startId="Package\Carga Terminales\Merge Join 2.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\Carga Terminales.Paths[Merge Join Output]"
               endId="Package\Carga Terminales\Sort 3.Inputs[Sort Input]"
               name="Merge Join Output"
               startId="Package\Carga Terminales\Merge Join.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Carga Terminales.Paths[Merge Join Output1]"
+              refId="Package\Carga Terminales.Paths[Merge Join Output]"
               endId="Package\Carga Terminales\Sort 4.Inputs[Sort Input]"
               name="Merge Join Output"
               startId="Package\Carga Terminales\Merge Join 1.Outputs[Merge Join Output]" />
             <path
+              refId="Package\Carga Terminales.Paths[Merge Join Output1]"
+              endId="Package\Carga Terminales\Lookup.Inputs[Lookup Input]"
+              name="Merge Join Output"
+              startId="Package\Carga Terminales\Merge Join 2.Outputs[Merge Join Output]" />
+            <path
               refId="Package\Carga Terminales.Paths[Sort Output4]"
-              endId="Package\Carga Terminales\Merge Join.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Carga Terminales\Sort 1.Outputs[Sort Output]" />
-            <path
-              refId="Package\Carga Terminales.Paths[Sort Output]"
-              endId="Package\Carga Terminales\Merge Join 1.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Carga Terminales\Sort 3.Outputs[Sort Output]" />
-            <path
-              refId="Package\Carga Terminales.Paths[Sort Output1]"
-              endId="Package\Carga Terminales\Merge Join 1.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Carga Terminales\Sort 2.Outputs[Sort Output]" />
-            <path
-              refId="Package\Carga Terminales.Paths[Sort Output2]"
               endId="Package\Carga Terminales\Merge Join 2.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Carga Terminales\Sort 4.Outputs[Sort Output]" />
             <path
-              refId="Package\Carga Terminales.Paths[Sort Output3]"
+              refId="Package\Carga Terminales.Paths[Sort Output]"
               endId="Package\Carga Terminales\Merge Join.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Carga Terminales\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\Carga Terminales.Paths[Sort Output1]"
+              endId="Package\Carga Terminales\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Carga Terminales\Sort 1.Outputs[Sort Output]" />
+            <path
+              refId="Package\Carga Terminales.Paths[Sort Output2]"
+              endId="Package\Carga Terminales\Merge Join 1.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Carga Terminales\Sort 3.Outputs[Sort Output]" />
+            <path
+              refId="Package\Carga Terminales.Paths[Sort Output3]"
+              endId="Package\Carga Terminales\Merge Join 1.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Carga Terminales\Sort 2.Outputs[Sort Output]" />
             <path
               refId="Package\Carga Terminales.Paths[Sort Output5]"
               endId="Package\Carga Terminales\Merge Join 2.Inputs[Merge Join Right Input]"
@@ -26619,12 +27015,12 @@ where [refTable].[clusterID] = ?</property>
               name="Conditional Split Default Output"
               startId="Package\Carga Titular\Conditional Split.Outputs[Conditional Split Default Output]" />
             <path
-              refId="Package\Carga Titular.Paths[Data Conversion Output1]"
+              refId="Package\Carga Titular.Paths[Data Conversion Output]"
               endId="Package\Carga Titular\Lookup Datos Geograficos.Inputs[Lookup Input]"
               name="Data Conversion Output"
               startId="Package\Carga Titular\Data Conversion 1.Outputs[Data Conversion Output]" />
             <path
-              refId="Package\Carga Titular.Paths[Data Conversion Output]"
+              refId="Package\Carga Titular.Paths[Data Conversion Output1]"
               endId="Package\Carga Titular\Lookup ID Cliente.Inputs[Lookup Input]"
               name="Data Conversion Output"
               startId="Package\Carga Titular\Data Conversion.Outputs[Data Conversion Output]" />
@@ -26634,35 +27030,35 @@ where [refTable].[clusterID] = ?</property>
               name="Flat File Source Output"
               startId="Package\Carga Titular\Cuentas Agrupadas File.Outputs[Flat File Source Output]" />
             <path
-              refId="Package\Carga Titular.Paths[Lookup Match Output]"
-              endId="Package\Carga Titular\Sort.Inputs[Sort Input]"
-              name="Lookup Match Output"
-              startId="Package\Carga Titular\Lookup ID Cliente.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Carga Titular.Paths[Lookup Match Output1]"
-              endId="Package\Carga Titular\Sort 1.Inputs[Sort Input]"
-              name="Lookup Match Output"
-              startId="Package\Carga Titular\Lookup ID SURVIVOR.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Carga Titular.Paths[Lookup Match Output2]"
+              refId="Package\Carga Titular.Paths[Lookup Match Output5]"
               endId="Package\Carga Titular\Titular Destination.Inputs[OLE DB Destination Input]"
               name="Lookup Match Output"
               startId="Package\Carga Titular\Lookup id cuenta.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\Carga Titular.Paths[Lookup Match Output3]"
-              endId="Package\Carga Titular\Titular Destination 1.Inputs[OLE DB Destination Input]"
+              refId="Package\Carga Titular.Paths[Lookup Match Output4]"
+              endId="Package\Carga Titular\Sort.Inputs[Sort Input]"
               name="Lookup Match Output"
-              startId="Package\Carga Titular\Lookup ID cuenta.Outputs[Lookup Match Output]" />
+              startId="Package\Carga Titular\Lookup ID Cliente.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\Carga Titular.Paths[Lookup Match Output5]"
+              refId="Package\Carga Titular.Paths[Lookup Match Output3]"
+              endId="Package\Carga Titular\Sort 1.Inputs[Sort Input]"
+              name="Lookup Match Output"
+              startId="Package\Carga Titular\Lookup ID SURVIVOR.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Carga Titular.Paths[Lookup Match Output1]"
               endId="Package\Carga Titular\Multicast.Inputs[Multicast Input 1]"
               name="Lookup Match Output"
               startId="Package\Carga Titular\Lookup Datos Geograficos.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\Carga Titular.Paths[Lookup Match Output4]"
+              refId="Package\Carga Titular.Paths[Lookup Match Output]"
               endId="Package\Carga Titular\Lookup ID SURVIVOR.Inputs[Lookup Input]"
               name="Lookup Match Output"
               startId="Package\Carga Titular\Lookup CLUSTER ID.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Carga Titular.Paths[Lookup Match Output2]"
+              endId="Package\Carga Titular\Titular Destination 1.Inputs[OLE DB Destination Input]"
+              name="Lookup Match Output"
+              startId="Package\Carga Titular\Lookup ID cuenta.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Carga Titular.Paths[Lookup No Match Output]"
               endId="Package\Carga Titular\Lookup CLUSTER ID.Inputs[Lookup Input]"
@@ -27203,24 +27599,26 @@ where [refTable].[clusterID] = ?</property>
           TopLeft="273,471" />
         <EdgeLayout
           Id="Package\Carga Ciudades.Paths[Flat File Source Output]"
-          TopLeft="318.833333333334,124.5">
+          TopLeft="516.25,118">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,39"
+              EndConnector="0,63.5"
               Start="0,0"
-              End="0,31.5">
+              End="0,56">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.5" />
+                    End="0,56" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27254,7 +27652,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27276,7 +27676,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27298,7 +27700,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27320,7 +27724,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27414,79 +27820,13 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Ciudades.Paths[Sort Output2]"
-          TopLeft="130.666666666667,203.833333333334">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="95.6666666666666,39.6666666666667"
-              Start="0,0"
-              End="95.6666666666666,32.1666666666667">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.8333333333334" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.8333333333334"
-                    Point2="0,19.8333333333334"
-                    Point3="4,19.8333333333334" />
-                  <mssgle:LineSegment
-                    End="91.6666666666666,19.8333333333334" />
-                  <mssgle:CubicBezierSegment
-                    Point1="91.6666666666666,19.8333333333334"
-                    Point2="95.6666666666666,19.8333333333334"
-                    Point3="95.6666666666666,23.8333333333334" />
-                  <mssgle:LineSegment
-                    End="95.6666666666666,32.1666666666667" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Ciudades.Paths[Sort Output1]"
-          TopLeft="315.666666666667,205.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-69,38"
-              Start="0,0"
-              End="-69,30.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.5227963525836" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,18.5227963525836"
-                    Point2="0,22.5227963525836"
-                    Point3="-4,22.5227963525836" />
-                  <mssgle:LineSegment
-                    End="-65,22.5227963525836" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-65,22.5227963525836"
-                    Point2="-69,22.5227963525836"
-                    Point3="-69,26.5227963525836" />
-                  <mssgle:LineSegment
-                    End="-69,30.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Ciudades.Paths[Sort Output]"
           TopLeft="223.166666666667,422.166666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27516,7 +27856,81 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Ciudades.Paths[Sort Output1]"
+          TopLeft="130.666666666667,203.833333333334">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="95.6666666666666,39.6666666666667"
+              Start="0,0"
+              End="95.6666666666666,32.1666666666667">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.8333333333334" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.8333333333334"
+                    Point2="0,19.8333333333334"
+                    Point3="4,19.8333333333334" />
+                  <mssgle:LineSegment
+                    End="91.6666666666666,19.8333333333334" />
+                  <mssgle:CubicBezierSegment
+                    Point1="91.6666666666666,19.8333333333334"
+                    Point2="95.6666666666666,19.8333333333334"
+                    Point3="95.6666666666666,23.8333333333334" />
+                  <mssgle:LineSegment
+                    End="95.6666666666666,32.1666666666667" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Ciudades.Paths[Sort Output]"
+          TopLeft="315.666666666667,205.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-69,38"
+              Start="0,0"
+              End="-69,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5227963525836" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.5227963525836"
+                    Point2="0,22.5227963525836"
+                    Point3="-4,22.5227963525836" />
+                  <mssgle:LineSegment
+                    End="-65,22.5227963525836" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-65,22.5227963525836"
+                    Point2="-69,22.5227963525836"
+                    Point3="-69,26.5227963525836" />
+                  <mssgle:LineSegment
+                    End="-69,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27550,7 +27964,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27572,7 +27988,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27649,28 +28067,6 @@ where [refTable].[clusterID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Ciudades.Paths[Flat File Source Output2]"
-          TopLeft="516.25,118">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,63.5"
-              Start="0,0"
-              End="0,56">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,56" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Ciudades.Paths[Flat File Source Output1]"
           TopLeft="129.833333333334,121">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27688,7 +28084,33 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Ciudades.Paths[Flat File Source Output1]"
+          TopLeft="318.833333333334,124.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39"
+              Start="0,0"
+              End="0,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -27857,9 +28279,7 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,46.25,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28078,7 +28498,7 @@ where [refTable].[clusterID] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-33.329269831731,94.846153846154,114.120078125,16"
+              BoundingBox="-24.460617487981,94.846153846154,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -28254,7 +28674,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28276,7 +28698,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28298,7 +28722,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28320,7 +28746,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28342,7 +28770,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28549,7 +28979,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28583,7 +29015,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28605,7 +29039,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28663,7 +29099,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28685,7 +29123,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -29222,7 +29662,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -29244,7 +29686,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -30282,74 +30726,6 @@ where [refTable].[clusterID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Terminales.Paths[Sort Output4]"
-          TopLeft="359,156.885245901639">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-97.1666666666667,84"
-              Start="0,0"
-              End="-97.1666666666667,76.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.7872340425532" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,45.7872340425532"
-                    Point2="0,49.7872340425532"
-                    Point3="-4,49.7872340425532" />
-                  <mssgle:LineSegment
-                    End="-93.1666666666667,49.7872340425532" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-93.1666666666667,49.7872340425532"
-                    Point2="-97.1666666666667,49.7872340425532"
-                    Point3="-97.1666666666667,53.7872340425532" />
-                  <mssgle:LineSegment
-                    End="-97.1666666666667,76.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Terminales.Paths[Sort Output3]"
-          TopLeft="166.5,155.885245901639">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="75,85"
-              Start="0,0"
-              End="75,77.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,38.5"
-                    Point2="0,42.5"
-                    Point3="4,42.5" />
-                  <mssgle:LineSegment
-                    End="71,42.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="71,42.5"
-                    Point2="75,42.5"
-                    Point3="75,46.5" />
-                  <mssgle:LineSegment
-                    End="75,77.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Terminales.Paths[Sort Output2]"
           TopLeft="301.5,602">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30383,7 +30759,7 @@ where [refTable].[clusterID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga Terminales.Paths[Sort Output1]"
+          Id="Package\Carga Terminales.Paths[Sort Output3]"
           TopLeft="444,365.828282828283">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30417,7 +30793,7 @@ where [refTable].[clusterID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga Terminales.Paths[Sort Output]"
+          Id="Package\Carga Terminales.Paths[Sort Output2]"
           TopLeft="242,367.828282828283">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30451,7 +30827,97 @@ where [refTable].[clusterID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Carga Terminales.Paths[Sort Output1]"
+          TopLeft="359,156.885245901639">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-97.1666666666667,84"
+              Start="0,0"
+              End="-97.1666666666667,76.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.7872340425532" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,45.7872340425532"
+                    Point2="0,49.7872340425532"
+                    Point3="-4,49.7872340425532" />
+                  <mssgle:LineSegment
+                    End="-93.1666666666667,49.7872340425532" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-93.1666666666667,49.7872340425532"
+                    Point2="-97.1666666666667,49.7872340425532"
+                    Point3="-97.1666666666667,53.7872340425532" />
+                  <mssgle:LineSegment
+                    End="-97.1666666666667,76.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Terminales.Paths[Sort Output]"
+          TopLeft="166.5,155.885245901639">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="75,85"
+              Start="0,0"
+              End="75,77.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38.5"
+                    Point2="0,42.5"
+                    Point3="4,42.5" />
+                  <mssgle:LineSegment
+                    End="71,42.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="71,42.5"
+                    Point2="75,42.5"
+                    Point3="75,46.5" />
+                  <mssgle:LineSegment
+                    End="75,77.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Carga Terminales.Paths[Merge Join Output2]"
+          TopLeft="241.75,282.885245901639">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42.943036926644"
+              Start="0,0"
+              End="0,35.443036926644">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.443036926644" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Terminales.Paths[Merge Join Output1]"
           TopLeft="383.25,678.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30473,7 +30939,7 @@ where [refTable].[clusterID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga Terminales.Paths[Merge Join Output1]"
+          Id="Package\Carga Terminales.Paths[Merge Join Output]"
           TopLeft="300.75,514.828282828283">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30486,28 +30952,6 @@ where [refTable].[clusterID] = ?</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,37.671717171717" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Terminales.Paths[Merge Join Output]"
-          TopLeft="241.75,282.885245901639">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,42.943036926644"
-              Start="0,0"
-              End="0,35.443036926644">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,35.443036926644" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -30556,6 +31000,19 @@ where [refTable].[clusterID] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Carga Terminales\Terminal Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Carga Terminales\Terminal destination 2">
     <Properties>
       <Property>
@@ -30597,49 +31054,29 @@ where [refTable].[clusterID] = ?</property>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="130,42"
-          Id="Package\Carga Titular\Merge Join"
-          TopLeft="340,653" />
+          Size="98,42"
+          Id="Package\Carga Titular\Sort"
+          TopLeft="283,467" />
         <NodeLayout
           Size="163,42"
           Id="Package\Carga Titular\Lookup ID cuenta"
           TopLeft="254,1310.16666666667" />
         <NodeLayout
-          Size="156,42"
-          Id="Package\Carga Titular\Data Conversion"
-          TopLeft="273,160" />
-        <NodeLayout
-          Size="174,42"
-          Id="Package\Carga Titular\Lookup CLUSTER ID"
-          TopLeft="476,380" />
-        <NodeLayout
-          Size="98,42"
-          Id="Package\Carga Titular\Sort"
-          TopLeft="283,467" />
-        <NodeLayout
-          Size="160,42"
-          Id="Package\Carga Titular\Lookup id cuenta"
-          TopLeft="41.6666666666667,1186.5" />
-        <NodeLayout
-          Size="174,42"
-          Id="Package\Carga Titular\Titular Destination 1"
-          TopLeft="249.333333333333,1451.5" />
-        <NodeLayout
-          Size="202,42"
-          Id="Package\Carga Titular\Lookup Datos Geograficos"
-          TopLeft="317,869" />
+          Size="120,42"
+          Id="Package\Carga Titular\Multicast"
+          TopLeft="173,996" />
         <NodeLayout
           Size="165,42"
           Id="Package\Carga Titular\Titular Destination"
           TopLeft="43,1333" />
         <NodeLayout
+          Size="202,42"
+          Id="Package\Carga Titular\Lookup Datos Geograficos"
+          TopLeft="317,869" />
+        <NodeLayout
           Size="172,42"
           Id="Package\Carga Titular\Flat File Destination"
           TopLeft="569,1004" />
-        <NodeLayout
-          Size="189,42"
-          Id="Package\Carga Titular\Cuentas Agrupadas File"
-          TopLeft="256,67" />
         <NodeLayout
           Size="181,42"
           Id="Package\Carga Titular\Lookup ID SURVIVOR"
@@ -30653,17 +31090,45 @@ where [refTable].[clusterID] = ?</property>
           Id="Package\Carga Titular\Sort 1"
           TopLeft="515,565" />
         <NodeLayout
+          Size="156,42"
+          Id="Package\Carga Titular\Data Conversion 1"
+          TopLeft="334,758" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Carga Titular\Conditional Split"
+          TopLeft="255,1110" />
+        <NodeLayout
+          Size="189,42"
+          Id="Package\Carga Titular\Cuentas Agrupadas File"
+          TopLeft="256,67" />
+        <NodeLayout
+          Size="130,42"
+          Id="Package\Carga Titular\Merge Join"
+          TopLeft="340,653" />
+        <NodeLayout
+          Size="160,42"
+          Id="Package\Carga Titular\Lookup id cuenta"
+          TopLeft="41.6666666666667,1186.5" />
+        <NodeLayout
           Size="136,42"
           Id="Package\Carga Titular\Aggregate 1"
           TopLeft="261,1207" />
         <NodeLayout
           Size="156,42"
-          Id="Package\Carga Titular\Data Conversion 1"
-          TopLeft="334,758" />
+          Id="Package\Carga Titular\Data Conversion"
+          TopLeft="273,160" />
         <NodeLayout
           Size="127,42"
           Id="Package\Carga Titular\Aggregate"
           TopLeft="55,1085" />
+        <NodeLayout
+          Size="174,42"
+          Id="Package\Carga Titular\Lookup CLUSTER ID"
+          TopLeft="476,380" />
+        <NodeLayout
+          Size="174,42"
+          Id="Package\Carga Titular\Titular Destination 1"
+          TopLeft="249.333333333333,1451.5" />
         <EdgeLayout
           Id="Package\Carga Titular.Paths[Sort Output1]"
           TopLeft="332,509">
@@ -30695,7 +31160,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -30729,7 +31196,81 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Titular.Paths[Multicast Output 3]"
+          TopLeft="214.333333333333,1038">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-95.8333333333333,47"
+              Start="0,0"
+              End="-95.8333333333333,39.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.1710526315789" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.1710526315789"
+                    Point2="0,19.1710526315789"
+                    Point3="-4,19.1710526315789" />
+                  <mssgle:LineSegment
+                    End="-91.8333333333333,19.1710526315789" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-91.8333333333333,19.1710526315789"
+                    Point2="-95.8333333333333,19.1710526315789"
+                    Point3="-95.8333333333333,23.1710526315789" />
+                  <mssgle:LineSegment
+                    End="-95.8333333333333,39.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Titular.Paths[Multicast Output 1]"
+          TopLeft="251.666666666667,1038">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="80.8333333333333,72"
+              Start="0,0"
+              End="80.8333333333333,64.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.3684210526316" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.3684210526316"
+                    Point2="0,29.3684210526316"
+                    Point3="4,29.3684210526316" />
+                  <mssgle:LineSegment
+                    End="76.8333333333333,29.3684210526316" />
+                  <mssgle:CubicBezierSegment
+                    Point1="76.8333333333333,29.3684210526316"
+                    Point2="80.8333333333333,29.3684210526316"
+                    Point3="80.8333333333333,33.3684210526316" />
+                  <mssgle:LineSegment
+                    End="80.8333333333333,64.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -30751,7 +31292,9 @@ where [refTable].[clusterID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -30827,55 +31370,7 @@ where [refTable].[clusterID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga Titular.Paths[Lookup Match Output4]"
-          TopLeft="565.75,422">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,52"
-              Start="0,0"
-              End="0,44.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,16.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Titular.Paths[Lookup Match Output3]"
-          TopLeft="335.916666666667,1352.16666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,99.3333333333335"
-              Start="0,0"
-              End="0,91.8333333333335">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,91.8333333333335" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,40.1119791666667,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Titular.Paths[Lookup Match Output2]"
+          Id="Package\Carga Titular.Paths[Lookup Match Output5]"
           TopLeft="123.583333333333,1228.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30899,31 +31394,7 @@ where [refTable].[clusterID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga Titular.Paths[Lookup Match Output1]"
-          TopLeft="568.5,516">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,49"
-              Start="0,0"
-              End="0,41.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,41.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,14.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Titular.Paths[Lookup Match Output]"
+          Id="Package\Carga Titular.Paths[Lookup Match Output4]"
           TopLeft="331.333333333333,295">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30947,155 +31418,55 @@ where [refTable].[clusterID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga Titular.Paths[Flat File Source Output]"
-          TopLeft="350.75,109">
+          Id="Package\Carga Titular.Paths[Lookup Match Output3]"
+          TopLeft="568.5,516">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,51"
+              EndConnector="0,49"
               Start="0,0"
-              End="0,43.5">
+              End="0,41.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,43.5" />
+                    End="0,41.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,14.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga Titular.Paths[Data Conversion Output1]"
-          TopLeft="415,800">
+          Id="Package\Carga Titular.Paths[Lookup Match Output2]"
+          TopLeft="335.916666666667,1352.16666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,69"
+              EndConnector="0,99.3333333333335"
               Start="0,0"
-              End="0,61.5">
+              End="0,91.8333333333335">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,61.5" />
+                    End="0,91.8333333333335" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,40.1119791666667,96.3827734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga Titular.Paths[Data Conversion Output]"
-          TopLeft="353.75,202">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,51"
-              Start="0,0"
-              End="0,43.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Titular.Paths[Aggregate Output 11]"
-          TopLeft="120.083333333333,1127">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.5"
-              Start="0,0"
-              End="0,52">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Titular.Paths[Aggregate Output 1]"
-          TopLeft="332.25,1249">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,61.1666666666665"
-              Start="0,0"
-              End="0,53.6666666666665">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,53.6666666666665" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="120,42"
-          Id="Package\Carga Titular\Multicast"
-          TopLeft="173,996" />
-        <EdgeLayout
-          Id="Package\Carga Titular.Paths[Multicast Output 3]"
-          TopLeft="214.333333333333,1038">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-95.8333333333333,47"
-              Start="0,0"
-              End="-95.8333333333333,39.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.1710526315789" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.1710526315789"
-                    Point2="0,19.1710526315789"
-                    Point3="-4,19.1710526315789" />
-                  <mssgle:LineSegment
-                    End="-91.8333333333333,19.1710526315789" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-91.8333333333333,19.1710526315789"
-                    Point2="-95.8333333333333,19.1710526315789"
-                    Point3="-95.8333333333333,23.1710526315789" />
-                  <mssgle:LineSegment
-                    End="-95.8333333333333,39.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga Titular.Paths[Lookup Match Output5]"
+          Id="Package\Carga Titular.Paths[Lookup Match Output1]"
           TopLeft="385.666666666667,911">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31130,42 +31501,100 @@ where [refTable].[clusterID] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Carga Titular\Conditional Split"
-          TopLeft="255,1110" />
         <EdgeLayout
-          Id="Package\Carga Titular.Paths[Multicast Output 1]"
-          TopLeft="251.666666666667,1038">
+          Id="Package\Carga Titular.Paths[Lookup Match Output]"
+          TopLeft="565.75,422">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="80.8333333333333,72"
+              EndConnector="0,52"
               Start="0,0"
-              End="80.8333333333333,64.5">
+              End="0,44.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.3684210526316" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.3684210526316"
-                    Point2="0,29.3684210526316"
-                    Point3="4,29.3684210526316" />
-                  <mssgle:LineSegment
-                    End="76.8333333333333,29.3684210526316" />
-                  <mssgle:CubicBezierSegment
-                    Point1="76.8333333333333,29.3684210526316"
-                    Point2="80.8333333333333,29.3684210526316"
-                    Point3="80.8333333333333,33.3684210526316" />
-                  <mssgle:LineSegment
-                    End="80.8333333333333,64.5" />
+                    End="0,44.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,16.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Titular.Paths[Flat File Source Output]"
+          TopLeft="350.75,109">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51"
+              Start="0,0"
+              End="0,43.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Titular.Paths[Data Conversion Output1]"
+          TopLeft="353.75,202">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51"
+              Start="0,0"
+              End="0,43.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Titular.Paths[Data Conversion Output]"
+          TopLeft="415,800">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,69"
+              Start="0,0"
+              End="0,61.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,61.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -31189,6 +31618,54 @@ where [refTable].[clusterID] = ?</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-70.61390625,17.9208984375,141.2278125,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Titular.Paths[Aggregate Output 11]"
+          TopLeft="120.083333333333,1127">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.5"
+              Start="0,0"
+              End="0,52">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Titular.Paths[Aggregate Output 1]"
+          TopLeft="332.25,1249">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,61.1666666666665"
+              Start="0,0"
+              End="0,53.6666666666665">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,53.6666666666665" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -31219,48 +31696,15 @@ where [refTable].[clusterID] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga Titular\Lookup CLUSTER ID">
+    design-time-name="Package\Carga Titular\Titular Destination">
     <Properties>
       <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[ClientesDuplica2View]</Value>
+        <Name>DataSourceViewID</Name>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">1</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Titular\Lookup id cuenta">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Dim_Cuenta]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -31284,19 +31728,6 @@ where [refTable].[clusterID] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Titular\Titular Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -31340,6 +31771,52 @@ where [refTable].[clusterID] = ?</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Titular\Lookup id cuenta">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Dim_Cuenta]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Titular\Lookup CLUSTER ID">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[ClientesDuplica2View]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">1</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>

@@ -32,6 +32,20 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>XmcTO5cdcLthbu8E9ek9p+8JyqI=6/17/2024 5:05:49 PM6/17/2024 5:05:48 PM</TimeStamp>
+        <ID>
+          <String>Completo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Inw3DapIQGY6ecOuqqLWYVtjrSw=6/17/2024 5:59:55 PM6/17/2024 5:59:55 PM</TimeStamp>
+        <ID>
+          <String>Tpi 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
         <TimeStamp>du5fA5khXhje+OvBlApjM7zovw4=6/12/2024 4:28:00 PM6/12/2024 4:27:59 PM</TimeStamp>
         <ID>
@@ -53,10 +67,136 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mvig408sRjSAFfiGpBm6A/eh+fo=6/17/2024 4:19:08 PM6/17/2024 4:19:08 PM</TimeStamp>
+        <ID>
+          <String>Dim Tiempo Full</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>V85H/o2K8ThGnMLPMtJF3z1u3t0=6/17/2024 4:19:28 PM6/17/2024 4:19:28 PM</TimeStamp>
+        <ID>
+          <String>Dim Canal Full</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Q7Xlh5ZNpFGTAagQsUivgtMFocw=6/17/2024 4:21:14 PM6/17/2024 4:21:14 PM</TimeStamp>
+        <ID>
+          <String>Facts Transaccion 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Uljl2S+8CTtESbnuRWSWi4L2HN0=6/17/2024 5:07:10 PM6/17/2024 5:07:10 PM</TimeStamp>
+        <ID>
+          <String>Transacciones FULL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>clJ5O1xaEg0ngrt25/RMiVe61pU=6/17/2024 5:07:36 PM6/17/2024 5:07:36 PM</TimeStamp>
+        <ID>
+          <String>Canal FULL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nnj6Q1/ZrZ2L/aQQMnRL4w7bLws=6/17/2024 5:08:20 PM6/17/2024 5:08:20 PM</TimeStamp>
+        <ID>
+          <String>CIUDAD FULL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6UiRJ6UE8iJSD87xgeqNBFA3hbM=6/17/2024 5:09:16 PM6/17/2024 5:08:46 PM</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+KNcQqVJdnddtDSFTtw3cApGCQk=6/17/2024 5:09:23 PM6/17/2024 5:09:04 PM</TimeStamp>
+        <ID>
+          <String>Dim Cuenta</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>he4GUEIj8f7stAobBHcsaXmqVNY=6/17/2024 5:09:42 PM6/17/2024 5:09:42 PM</TimeStamp>
+        <ID>
+          <String>Operacion FULL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uEUBO6ndeTsCafEvpIqhwyZXiJg=6/17/2024 5:10:01 PM6/17/2024 5:10:01 PM</TimeStamp>
+        <ID>
+          <String>PAIS FULL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nV/D8yIWl63a2gMwo47H5OgO6d0=6/17/2024 5:10:26 PM6/17/2024 5:10:19 PM</TimeStamp>
+        <ID>
+          <String>Dim Provincia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eL5vbuOMTbr0fflFYnpk2T3K4eo=6/17/2024 5:10:51 PM6/17/2024 5:10:51 PM</TimeStamp>
+        <ID>
+          <String>Terminal FULL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>T9lKUrqnTxsB8Z+EJ8fH8uggK2g=6/17/2024 5:11:11 PM6/17/2024 5:11:11 PM</TimeStamp>
+        <ID>
+          <String>TIEMPO FULL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NGhkbKdsb2m66ntjecB0jFnnQCU=6/17/2024 6:04:05 PM6/17/2024 6:00:15 PM</TimeStamp>
+        <ID>
+          <String>Dim Terminal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NWm6oFn8XIQsdX8Q90kt6glKBw8=6/17/2024 6:00:15 PM6/17/2024 6:00:15 PM</TimeStamp>
+        <ID>
+          <String>Facts Transaccion 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
         <TimeStamp>ovAndePPHTF4X1MAvJs6Y0G+spc=6/12/2024 4:50:04 PM6/12/2024 4:50:03 PMcmFBK6yrAUXWqdOrLAmXO55LUM0=6/12/2024 4:50:04 PM6/12/2024 4:50:03 PM</TimeStamp>
         <ID>
           <String>Tpi</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ebATxmveljq7XkhQGrDbRF9ZVgA=6/17/2024 5:05:49 PM6/17/2024 4:22:01 PMY6fdHGORaB7lc9BWs07yYXKsvFk=6/17/2024 4:39:09 PM6/17/2024 4:22:01 PM</TimeStamp>
+        <ID>
+          <String>Tpi 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>PrQ9jJMUftifj+IWfFn73ae/Vow=6/17/2024 5:12:39 PM6/17/2024 5:12:39 PM5Nq1fsicxJ+czbYTkEsNc3C8DuE=6/17/2024 5:12:39 PM6/17/2024 5:12:39 PM</TimeStamp>
+        <ID>
+          <String>Completo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>JB8s4Xh87gN0u5rQTQdfIkJXoYM=6/17/2024 6:04:05 PM6/17/2024 6:00:15 PM+UXd1ZlR0aiEz/a99X/KjjTzkl8=6/17/2024 6:00:15 PM6/17/2024 6:00:15 PM</TimeStamp>
+        <ID>
+          <String>Tpi 1 1</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -71,5 +211,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2024-06-13T00:09:32.753333Z</LastDeployed>
+  <LastDeployed>2024-06-18T01:04:20.986667Z</LastDeployed>
 </DeploymentSnapshot>

@@ -1,0 +1,158 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="12c90665-34b1-45b4-b9b9-bbf05f8479b6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Operacion FULL</ID>
+  <Name>Operacion FULL</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4d1661bb-480a-4838-8c1a-b5d8335f23c0">
+    <DataSourceViewID>Completo</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="47198e51-ec2b-4f05-aa76-ce43ecdc8f56">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="0f181b52-5b44-442b-9dca-079ed1614f31">
+      <ID>Id</ID>
+      <Name>Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ccdb2208-fc98-4c33-963d-1afb7592207b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f9f582a1-a65a-4440-ab50-e05cd9c66000">
+            <TableID>dbo_Dim_Operacion</TableID>
+            <ColumnID>id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="cd093f50-4297-4f57-a2c8-acfe26964627">
+          <AttributeID>Desc Op</AttributeID>
+          <Name>Desc Op</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="446ccddb-1c48-46df-ad72-f228b2c1c631">
+          <AttributeID>Id Operacion</AttributeID>
+          <Name>Id Operacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="76acbbab-0b35-4a74-b1fc-02831eb25891">
+          <AttributeID>Fecha S</AttributeID>
+          <Name>Fecha S</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f1bd853b-4297-4216-9cc8-51c4b8b8a76a">
+          <AttributeID>Fecha E</AttributeID>
+          <Name>Fecha E</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aaee2a59-250c-447b-b262-f2a6e2795f75">
+      <ID>Desc Op</ID>
+      <Name>Desc Op</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f0d5d11-f23f-4276-abf1-7b4148d8ff77">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="41fa7c4f-4851-4770-a384-467132071a48">
+            <TableID>dbo_Dim_Operacion</TableID>
+            <ColumnID>desc_op</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bb29cc57-d37d-4eef-9e75-71b861692000">
+      <ID>Id Operacion</ID>
+      <Name>Id Operacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fd12fb11-b978-4f91-a938-b86a556aef67">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eae5ed17-11db-4cf9-ac32-8639071ddd34">
+            <TableID>dbo_Dim_Operacion</TableID>
+            <ColumnID>id_operacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="26a84d43-d3c9-4b68-a8fa-95361f60fdc5">
+      <ID>Fecha S</ID>
+      <Name>Fecha S</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="abc37d64-d2a7-4ff8-8f0f-0cc50d5bf951">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05c7244b-979b-4028-80ef-abb18a1f9bc9">
+            <TableID>dbo_Dim_Operacion</TableID>
+            <ColumnID>fechaS</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e17423ee-ca50-4b3e-a464-3dc72d4aaf90">
+      <ID>Fecha E</ID>
+      <Name>Fecha E</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba51ff8d-a537-46e1-917d-fe6b1569ed01">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4ce4dbc-d886-498c-9c41-9764a51115f4">
+            <TableID>dbo_Dim_Operacion</TableID>
+            <ColumnID>fechaE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

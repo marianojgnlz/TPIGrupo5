@@ -17,6 +17,36 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Tpi 1.cube</Name>
+      <FullPath>Tpi 1.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Tpi 1.partitions</Name>
+          <FullPath>Tpi 1.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Completo.cube</Name>
+      <FullPath>Completo.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Completo.partitions</Name>
+          <FullPath>Completo.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Tpi 1 1.cube</Name>
+      <FullPath>Tpi 1 1.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Tpi 1 1.partitions</Name>
+          <FullPath>Tpi 1 1.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -31,6 +61,66 @@
       <Name>Facts Transaccion.dim</Name>
       <FullPath>Facts Transaccion.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Tiempo Full.dim</Name>
+      <FullPath>Dim Tiempo Full.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Canal Full.dim</Name>
+      <FullPath>Dim Canal Full.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Facts Transaccion 1.dim</Name>
+      <FullPath>Facts Transaccion 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Transacciones FULL.dim</Name>
+      <FullPath>Transacciones FULL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Canal FULL.dim</Name>
+      <FullPath>Canal FULL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CIUDAD FULL.dim</Name>
+      <FullPath>CIUDAD FULL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cliente FULL.dim</Name>
+      <FullPath>Cliente FULL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cuenta FULL.dim</Name>
+      <FullPath>Cuenta FULL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Operacion FULL.dim</Name>
+      <FullPath>Operacion FULL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PAIS FULL.dim</Name>
+      <FullPath>PAIS FULL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Provincia FULL.dim</Name>
+      <FullPath>Provincia FULL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Terminal FULL.dim</Name>
+      <FullPath>Terminal FULL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TIEMPO FULL.dim</Name>
+      <FullPath>TIEMPO FULL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Terminal.dim</Name>
+      <FullPath>Dim Terminal.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Facts Transaccion 2.dim</Name>
+      <FullPath>Facts Transaccion 2.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
@@ -42,6 +132,14 @@
     <ProjectItem>
       <Name>Tpi.dsv</Name>
       <FullPath>Tpi.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Completo.dsv</Name>
+      <FullPath>Completo.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Tpi 1.dsv</Name>
+      <FullPath>Tpi 1.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>

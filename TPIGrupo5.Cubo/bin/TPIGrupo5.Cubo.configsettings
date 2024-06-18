@@ -20,6 +20,51 @@
       <Dimension>
         <ID>Facts Transaccion</ID>
       </Dimension>
+      <Dimension>
+        <ID>Dim Tiempo Full</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Canal Full</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Facts Transaccion 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Transacciones FULL</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Canal FULL</ID>
+      </Dimension>
+      <Dimension>
+        <ID>CIUDAD FULL</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Cliente</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Cuenta</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Operacion FULL</ID>
+      </Dimension>
+      <Dimension>
+        <ID>PAIS FULL</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Provincia</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Terminal FULL</ID>
+      </Dimension>
+      <Dimension>
+        <ID>TIEMPO FULL</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Terminal</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Facts Transaccion 2</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
@@ -30,6 +75,149 @@
             <Partitions>
               <Partition>
                 <ID>Facts Transaccion</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Tpi 1</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Facts Transaccion</ID>
+            <Partitions>
+              <Partition>
+                <ID>Facts Transaccion</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Tiempo</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Tiempo</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Canal</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Canal</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Completo</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dim Canal</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Canal</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Cliente</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Cliente</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Cuenta</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Cuenta</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Ciudad</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Ciudad</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Operacion</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Operacion</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Pais</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Pais</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Provincia</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Provincia</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Terminal</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Terminal</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Tiempo</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Tiempo</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Titular</ID>
+            <Partitions>
+              <Partition>
+                <ID>Titular</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Facts Transaccion</ID>
+            <Partitions>
+              <Partition>
+                <ID>Facts Transaccion</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Tpi 1 1</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Facts Transaccion</ID>
+            <Partitions>
+              <Partition>
+                <ID>Facts Transaccion</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Terminal</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Terminal</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

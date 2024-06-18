@@ -1,0 +1,620 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f9b4ac9d-0716-4a1a-a960-8c60dd2c70d5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Tpi 1</ID>
+  <Name>Tpi 1</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8182" scrolltop="-2831" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20532" y="11113" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Tiempo" left="126" top="7400" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3466" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008a0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Tiempo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Canal" left="6098" top="1137" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Canal" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Facts_Transaccion" left="-509" top="-556" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3678" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00005e0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Facts_Transaccion" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="360" top="4144" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="799" height="3756" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[RefDim_Tiempo9]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="0" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="759" y="7400" />
+              <point x="759" y="5922" />
+              <point x="780" y="5922" />
+              <point x="780" y="4444" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2869" top="1644" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3529" height="1255" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[RefDim_Canal5]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="14" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6098" y="2499" />
+              <point x="4898" y="2499" />
+              <point x="4898" y="1944" />
+              <point x="3169" y="1944" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-8182</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2831</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-509</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-556</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="a5993418-5bae-4a40-aa0c-40af45867a93">
+      <ID>Facts Transaccion 1</ID>
+      <Name>Facts Transaccion 1</Name>
+      <DimensionID>Facts Transaccion 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="69b2605c-1239-4844-970f-873f8bf63b5c">
+          <AttributeID>Id Transaccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8845ea2a-6f80-4627-a663-2c97a10779a2">
+          <AttributeID>Id Cuenta Origen</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ee419224-0633-4f52-aa8b-4192c5c5f4ac">
+          <AttributeID>Id Terminal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f81a576-1e5f-489d-8513-a06092f8734a">
+          <AttributeID>Id Operacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1d12895a-8620-451a-b65d-8e1d3038d9c8">
+          <AttributeID>Id Ciudad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="18546ad9-a2d7-40a1-9efd-681061f64256">
+          <AttributeID>Id Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7c82a255-ea43-4535-84a3-e5c3883fbe32">
+          <AttributeID>Id Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0854d330-6937-4f23-8132-0599303e8c10">
+          <AttributeID>Total Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="05496d83-553f-4d3f-a61d-a8c18431132e">
+          <AttributeID>Max Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="394fb6e5-9e8f-4417-862d-e5434c5245a9">
+          <AttributeID>Avg Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5107ba53-ade2-4dbb-b21c-a9bfce362d02">
+          <AttributeID>Cant Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4142de96-4dad-4323-8691-ee8857a3af8e">
+          <AttributeID>Min Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0aafb68f-5b74-4507-b854-35a0085d15e3">
+          <AttributeID>Ok Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f40ecc56-2e10-4fa9-b615-b2a6ea2dd18f">
+          <AttributeID>Fail Transacciones</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9aada6ff-558b-4b74-88e7-655b172a1cd2">
+          <AttributeID>Id Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9466a164-4d57-48ca-95b0-5b5164f09b28">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4015f65-7078-487d-b0ff-51be609ef3fb">
+          <AttributeID>Date String</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="591f2a84-bdf3-4114-829d-ffd2b3b25e74">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8789e857-d704-4328-b96c-42122ad9f113">
+          <AttributeID>Dayof Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4699cbd7-0505-4694-9d18-63afda9068dd">
+          <AttributeID>Dayof Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f2abd5c-4aa8-4b6b-950e-a2428842929a">
+          <AttributeID>Dayof Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f61b64ef-7182-4574-818f-155543c4db15">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ea67d30-944f-43ee-a6e8-b06d850c9115">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1bf57aea-4109-4946-b862-d10afd0ce802">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eaee767a-749e-4257-8d12-2f38bb878779">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8acf5dda-3ec9-4db0-bda1-a9a4ec8d9f66">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62434ef6-54cb-457e-9304-bfa901355e24">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="36422063-ba05-4472-9bdb-c181771d801e">
+          <AttributeID>Is Leap Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5cf30fa3-e75e-473a-a8f6-8fbfdecc4681">
+          <AttributeID>Is Public Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a4d746a9-f41b-481c-a56b-88832894ed28">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7e6c37f5-b4f1-436a-8175-bc1709a9a696">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aa28481c-35d7-4282-8d1f-f8cf8c7cce0a">
+          <AttributeID>Nombre Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bb681d5d-35de-465f-aedf-efe4c7199b1b">
+          <AttributeID>Medio</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9e796709-02e6-401c-8341-bb66c02558f2">
+      <ID>Dim Tiempo Full</ID>
+      <Name>Dim Tiempo Full</Name>
+      <DimensionID>Dim Tiempo Full</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="79b3a5ce-ea60-478a-9cc6-4670be343afd">
+          <AttributeID>Id Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="593a1391-49ed-4003-8a42-f849b33d18d2">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="defacc9e-5f3b-42b9-ad79-cfdf33d88f76">
+          <AttributeID>Date String</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="193b0b4f-8a30-430e-80c3-2dd3fbb964f1">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dc756b21-b49e-4728-b1c2-24dce72d1788">
+          <AttributeID>Dayof Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="04d2aee6-9548-429d-a26f-e26ab7f911ce">
+          <AttributeID>Dayof Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a3a40b7-8120-4129-92c0-10358e16baa5">
+          <AttributeID>Dayof Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a84c93a-5d20-44a0-9ff9-63b4a91f3fed">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b67d55f8-5fdf-4348-9410-3570b61f8467">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dfe79c51-5a36-4596-b3dd-a9cf929b5deb">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="772c8168-17ef-42e2-a57c-316f9d8e1873">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ed258c3-fc8e-4941-ac5c-7b541f1c52d8">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="42759f9e-c50a-4eb4-9cbb-cd82e5deda78">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="63382ccc-ab6f-46a6-b9c4-241fdefea7cf">
+          <AttributeID>Is Leap Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4d1c45d9-510b-40b5-b08a-6d7a9ea659ea">
+          <AttributeID>Is Public Day</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5fc3784d-5916-4895-a25d-f91b3b3ccbfc">
+      <ID>Dim Canal Full</ID>
+      <Name>Dim Canal Full</Name>
+      <DimensionID>Dim Canal Full</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9e394c37-fed8-4488-bfc2-e8fa675f5527">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5462e538-658f-453f-9c68-4c3a0213e2e7">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c4f713f-67cc-4307-88fd-f61f51970b6f">
+          <AttributeID>Nombre Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a332e535-db35-4207-9295-d02a19279a01">
+          <AttributeID>Medio</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="36ec648f-d661-4fd2-ad28-c98129b95d20">
+      <ID>Facts Transaccion</ID>
+      <Name>Facts Transaccion</Name>
+      <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="9b6e9e2e-5b5b-45a0-87c4-7895b71afacd">
+          <ID>Total Monto</ID>
+          <Name>Total Monto</Name>
+          <Source dwd:design-time-name="7a1ce93e-ad86-470a-b85c-088e524710e7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="49926cee-2a5b-4e53-afa4-5c75ab4c604e">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>total_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="eacc38f9-f5f0-4699-b249-809005fc7546">
+          <ID>Max Monto</ID>
+          <Name>Max Monto</Name>
+          <Source dwd:design-time-name="faa609fe-3a2f-4ea0-ba94-acb7b0f33065">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="80a7d85f-bf52-405c-9f97-2d3ff91d7385">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>max_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="eb6e6f25-da3a-478f-b137-f5517c86fb96">
+          <ID>Avg Monto</ID>
+          <Name>Avg Monto</Name>
+          <Source dwd:design-time-name="bfc75745-1935-4e15-bd63-bf043330b597">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d68f1b6d-e069-4820-a1ef-05280217b37c">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>avg_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0e9ee539-53bf-46af-945e-4c9c00d1e30c">
+          <ID>Cant Transacciones</ID>
+          <Name>Cant Transacciones</Name>
+          <Source dwd:design-time-name="604aa029-1d65-4971-8289-d318444eb5bc">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b380c51d-b18e-46e6-92d2-cba1b7ca07b4">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>cant_transacciones</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1130c3f4-3a60-4d4d-ab31-00f4f21aa3d0">
+          <ID>Min Monto</ID>
+          <Name>Min Monto</Name>
+          <Source dwd:design-time-name="b6f5a14d-6c28-4131-9a53-43328750870e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fe282710-8ca9-42ad-9a40-390103ec490f">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>min_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8d44c748-cc05-4740-a31a-f8b6ac965855">
+          <ID>Facts Transaccion Count</ID>
+          <Name>Facts Transaccion Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="bfbd4ddf-2eb1-4c3e-af8b-e3a9eee9cace">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="444fc6cf-f2a3-4b5a-b311-6248511a8d69">
+              <TableID>dbo_Facts_Transaccion</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c7bb0b7f-3dfc-4298-82c2-5c9ae0567310">
+          <CubeDimensionID>Facts Transaccion 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a8b79768-5477-4270-ad8e-5b08fafadde6">
+              <AttributeID>Id Transaccion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="071d0582-23dd-423c-809e-646d0449e501">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="32c585ef-6bca-4651-84d8-9240551163d8">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_transaccion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="32f4c13e-409b-42a8-b181-58e9beb8c601">
+          <CubeDimensionID>Dim Tiempo Full</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4d1ccdc9-1ab4-4c72-a192-624c213f0a12">
+              <AttributeID>Id Tiempo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cea52c95-ea5b-4f62-9dba-616d16a05f15">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="47258128-215d-4ae8-974f-e0d464cf01b9">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_tiempo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="83d9679e-8d98-42c8-9f06-85cf50549bdc">
+          <CubeDimensionID>Dim Canal Full</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="72764918-3f06-4245-824e-01fa6593afda">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5e9de3ba-b6f3-4fc5-892b-700fb3f0098f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7ef84222-7ccf-44e0-9a63-b4ec0f6cefa8">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_canal</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="171b34ac-70df-438f-a4db-afec77148a3a">
+      <ID>Dim Tiempo</ID>
+      <Name>Dim Tiempo</Name>
+      <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1c36e775-0685-4cd5-bd82-a056a503b851">
+          <ID>Day</ID>
+          <Name>Day</Name>
+          <Source dwd:design-time-name="d7dec416-ecdf-4145-859b-00e6d0a63435">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="68f9c71d-97ba-48b1-a12e-47c48176b643">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>Day</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fbf650d5-cb3e-445e-9ed1-60301bd997eb">
+          <ID>Dayof Year</ID>
+          <Name>Dayof Year</Name>
+          <Source dwd:design-time-name="9e231511-310a-45c1-bbc5-3f8fd90d13fd">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="000a08bc-6f7f-4831-9f51-8a1f99dee3bd">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>DayofYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e07973a1-c1db-438f-a7c6-4d8f713bb4d9">
+          <ID>Dayof Week</ID>
+          <Name>Dayof Week</Name>
+          <Source dwd:design-time-name="11fc1c1d-ab7a-4aac-9ca1-1ecd9a9ed036">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="845591db-b2f3-41e8-9734-84a0a19bf5c9">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>DayofWeek</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="92bb5aca-1d16-4bd4-91f3-c4318a8d0dc6">
+          <ID>Week</ID>
+          <Name>Week</Name>
+          <Source dwd:design-time-name="f6244666-705d-472d-856f-66741e128e6b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f90e9bfd-09eb-4f80-8e9d-b099f3229db0">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>Week</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="66c4b8d6-013b-4a47-8bfb-df210f97aae6">
+          <ID>Month</ID>
+          <Name>Month</Name>
+          <Source dwd:design-time-name="08476965-1dc7-4343-a0c9-91438e046ff8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4c0e6f74-0319-47f4-8106-85399424a0d4">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>Month</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9b5e5b7a-51e6-498b-9365-a79041716dab">
+          <ID>Quarter</ID>
+          <Name>Quarter</Name>
+          <Source dwd:design-time-name="83f5482f-39dd-45e2-a7d8-580cccf0bf01">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6f63e549-222b-4066-b728-acac998c8ec2">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>Quarter</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3b8af6b8-b4ad-4b1b-a77f-2509b9c0ea8b">
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <Source dwd:design-time-name="7817babc-4685-472a-ad8f-422dd9d6b52a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7881a8b0-c2e5-45d4-aa7c-9e3ad1a2b22c">
+              <TableID>dbo_Dim_Tiempo</TableID>
+              <ColumnID>Year</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4eb459bb-07aa-4a57-a4df-f1e362d49731">
+          <ID>Dim Tiempo Count</ID>
+          <Name>Dim Tiempo Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="c3b8d820-cf86-4704-9f7e-b9cc78f7ca45">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="52c6d64b-97c8-49ea-84e9-9d61274000bb">
+              <TableID>dbo_Dim_Tiempo</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="ba045bfb-b272-43dd-87c1-8e8c0f8bc844">
+          <CubeDimensionID>Dim Tiempo Full</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bb9e79c4-079a-4a5c-bcaf-a6f8922779f7">
+              <AttributeID>Id Tiempo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ba3018dc-2bf4-44ad-a7ed-a128c5d4b851">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d74920fd-b126-4dba-855b-6162a5c26307">
+                    <TableID>dbo_Dim_Tiempo</TableID>
+                    <ColumnID>id_tiempo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="d32262ac-f6cf-47cb-b7ac-7eb56a8cce5b">
+      <ID>Dim Canal</ID>
+      <Name>Dim Canal</Name>
+      <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1906e684-d49c-4aa9-995e-4f3a6b40c2c0">
+          <ID>Dim Canal Count</ID>
+          <Name>Dim Canal Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="977c59eb-c39d-4ff4-9d41-b8884ee65ea7">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ee6d6944-1bfc-4f2f-bb05-6dda54595dcf">
+              <TableID>dbo_Dim_Canal</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="8c2f3716-db16-4020-9096-022011d7e80c">
+          <CubeDimensionID>Dim Canal Full</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e32cae39-571f-4d20-8cd9-150a3dbff850">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b86bfbbd-e2ca-44c1-acb6-e8df6a9ca3dc">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d9ccc2ea-b19f-43be-9174-d475f432f519">
+                    <TableID>dbo_Dim_Canal</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="559247e5-e0ee-43a8-8fa9-a656a4879795">
+    <DataSourceViewID>Tpi</DataSourceViewID>
+  </Source>
+</Cube>

@@ -1,0 +1,399 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e4aaf6cc-d86c-42e5-9658-ca80e8d35324" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Tpi 1 1</ID>
+  <Name>Tpi 1 1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8182" scrolltop="-3801" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20532" y="19870" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Facts_Transaccion" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3678" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00005e0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Facts_Transaccion" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Terminal" left="99" top="7400" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3519" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bf0d000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Terminal" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1459" top="4700" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[RefDim_Terminal8]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1858" y="7400" />
+              <point x="1858" y="6200" />
+              <point x="1859" y="6200" />
+              <point x="1859" y="5000" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-8182</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3801</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="7b9aa89a-7ffa-4976-8335-d97a0353551e">
+      <ID>Facts Transaccion 2</ID>
+      <Name>Facts Transaccion 2</Name>
+      <DimensionID>Facts Transaccion 2</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9c02a5fa-b611-4756-86fc-804712df10a3">
+          <AttributeID>Id Transaccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="041a1ec5-62c5-44fb-a514-26599f947173">
+          <AttributeID>Id Terminal</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d15b2123-0d89-42cd-867c-47d11cdef91b">
+      <ID>Dim Terminal</ID>
+      <Name>Dim Terminal</Name>
+      <DimensionID>Dim Terminal</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a7eeea4b-ab6a-42a6-934b-95c06e364e28">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="32134b49-3626-4ca9-a2a1-f376dd4f797b">
+          <AttributeID>Longitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6fa1b070-7843-4d2c-97ef-a7c227f583eb">
+          <AttributeID>Latitud</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="188f9050-c660-4f9b-adf2-cdbd3e327de8">
+      <ID>Facts Transaccion</ID>
+      <Name>Facts Transaccion</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="d692859a-30f2-454b-96f2-0acae2b7b319">
+          <ID>Total Monto</ID>
+          <Name>Total Monto</Name>
+          <Source dwd:design-time-name="3eea7fc2-768b-443e-ad46-d3ffbffc4b6a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e833e908-15d8-4d01-8e88-42e8b24979ae">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>total_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="387b1401-060f-4c6c-b2fe-7bafb95f2fde">
+          <ID>Max Monto</ID>
+          <Name>Max Monto</Name>
+          <Source dwd:design-time-name="f783ba81-b21b-4dbc-b1ae-308e2bf6c42a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9dac3d82-5efe-4d42-a4ec-541890e54372">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>max_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cbb7e4f3-9c21-4355-a970-81dbe931c6ce">
+          <ID>Avg Monto</ID>
+          <Name>Avg Monto</Name>
+          <Source dwd:design-time-name="b685364e-de37-4e40-b17b-35d1f74e61ff">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a58bf8f1-3279-4ba1-be9a-a3d22c65ce16">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>avg_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="89aa4fac-2e4c-4e33-bb78-391790192e6e">
+          <ID>Cant Transacciones</ID>
+          <Name>Cant Transacciones</Name>
+          <Source dwd:design-time-name="28199c2b-9ada-4860-916b-a090e811e4c8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e4e815fe-9ea0-427a-8c5e-e9a22d0ef0ad">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>cant_transacciones</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0f807fe1-e146-4041-834f-60cec0e45b9c">
+          <ID>Min Monto</ID>
+          <Name>Min Monto</Name>
+          <Source dwd:design-time-name="19cfacce-2845-4f17-a772-457ae3529bbb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f98935fe-ed90-48a3-8196-90a715764a90">
+              <TableID>dbo_Facts_Transaccion</TableID>
+              <ColumnID>min_monto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4cb5618d-7a65-49e4-a29c-d59b65ffdf7e">
+          <ID>Facts Transaccion Count</ID>
+          <Name>Facts Transaccion Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="ed3fa286-37f1-4c49-913a-a0d4761f28b3">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ac6349dc-dac5-40ec-a3e8-9adea6932210">
+              <TableID>dbo_Facts_Transaccion</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="63b3f596-7a69-44e7-825a-fa3a7be05c50">
+          <CubeDimensionID>Facts Transaccion 2</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="210c36a0-f5c6-4f0b-b0ab-b5e8279a8a24">
+              <AttributeID>Id Transaccion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c9270d92-cf5a-4303-a248-1063a25e2f77">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="549e151e-404d-4811-bbc7-7e8a2429b266">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_transaccion</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="2e9b1530-57ad-4ba1-9deb-ceb8ca4c1498">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6f179842-edff-47c9-8ca5-c001e5b27132">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_tiempo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="167d17a4-cdac-4f18-aed8-716410ee3fa5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c38c9a9a-c220-4ef1-85ea-5a0cf88e0072">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_cuentaOrigen</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c8743f3b-0bdb-45cc-bea1-f85d2bc55a20">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="13bd56d1-793d-43fb-bb25-3da3c42bc87f">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_terminal</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="1ae64451-7f41-421e-b571-47a446e5d5af">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e3405e52-514c-449c-9a41-6a4d0dc95a03">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_canal</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="b0c4c15c-2038-4055-9246-3ab3b3a23a8e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dd886450-6606-4f95-a3e3-67c6f5038b77">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_operacion</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="3b4018db-7ca4-4bf7-b1e1-351958573836">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ae829cb1-4131-4486-85f1-d6c6f119ae9f">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_ciudad</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="25670633-4d90-443c-8ec4-6b679ee98e63">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="40eb9950-5fc2-4a52-a3ee-1eba83fd64ca">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_provincia</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="4343d0a8-bd62-4c01-b2ab-14cd02e18e13">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8eb5ef15-2783-4428-8f93-8b8249a4fac3">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_pais</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c3593429-d865-43a1-9dd9-3e354e4a962e">
+          <CubeDimensionID>Dim Terminal</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a5affd37-2ecf-4436-a4b5-352f9228ff61">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="843fc0ba-5dba-4208-bba7-0c07aa715ba8">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4963cded-0bf5-43fd-b7f2-405e95c4edc0">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_terminal</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="94440cb6-e19a-473b-9e17-744f291b24a7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9e269b83-70d1-4d16-aa7b-b2ef82b27352">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_ciudad</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="39529ae6-dab3-46ea-b7b9-d7da06d7b6df">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ebfdb599-3f67-47e3-a93f-73d923a3ec08">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_provincia</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="263d555b-2c48-46a2-b52f-3584b95670c2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f1052f39-6599-4424-a129-1fe8371d00a9">
+                    <TableID>dbo_Facts_Transaccion</TableID>
+                    <ColumnID>id_pais</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="0e79ceb5-dda4-438e-bab9-78e964499ac4">
+      <ID>Dim Terminal</ID>
+      <Name>Dim Terminal</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="6c0cafef-dca9-41f5-9e4a-83f38a2cbf40">
+          <ID>Dim Terminal Count</ID>
+          <Name>Dim Terminal Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="46591f59-cf16-4d05-a1db-8fce34e6e402">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="8e25e2df-e794-486f-94c1-d8b362eb702f">
+              <TableID>dbo_Dim_Terminal</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="77095099-d6b5-4a9d-98c2-1d1ecdc30bbe">
+          <CubeDimensionID>Dim Terminal</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2bdd8c33-e168-40df-82a4-0226f5eb44d4">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="da0e577c-403f-4f22-97c5-7fd18b77599a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="58724869-ebb3-4727-9ceb-7944e5a4748b">
+                    <TableID>dbo_Dim_Terminal</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="cc43c154-6f12-424a-a5e2-156f9bc7efc0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="01a6ff3c-48e4-40ab-8d3e-2f0b2c888f42">
+                    <TableID>dbo_Dim_Terminal</TableID>
+                    <ColumnID>id_ciudad</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="258a5bcf-da06-46bb-8f99-ef99a9f7f287">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="432dc666-0b46-4fbb-b4eb-f7722413b8b0">
+                    <TableID>dbo_Dim_Terminal</TableID>
+                    <ColumnID>id_provincia</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c369a2c6-ba37-4da9-b068-b5fa16627696">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a69b0a62-bff9-49b5-b707-4740444f7d77">
+                    <TableID>dbo_Dim_Terminal</TableID>
+                    <ColumnID>id_pais</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="62c378c2-b04b-474d-a27d-b6d32c9958b0">
+    <DataSourceViewID>Tpi 1</DataSourceViewID>
+  </Source>
+</Cube>

@@ -354,6 +354,9 @@ CREATE TABLE Dim_Terminal(
 
     entidad_financiera    nvarchar(255)    NOT NULL,
 
+	longitud			nvarchar(255) not null,
+	latitud nvarchar(255) not null,
+
     CONSTRAINT PK10 PRIMARY KEY NONCLUSTERED (id, id_ciudad, id_provincia, id_pais)
 
 )

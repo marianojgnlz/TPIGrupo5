@@ -2,18 +2,18 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>TPIGrupo5</Name>
-    <LastWriteTime>2024-06-12T23:08:51.0467969Z</LastWriteTime>
+    <LastWriteTime>2024-06-18T00:37:22.8921786Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Carga de Dimensiones.dtsx</Name>
-      <LastWriteTime>2024-06-12T21:22:22.9906595Z</LastWriteTime>
+      <LastWriteTime>2024-06-18T00:37:22.8441192Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Carga Tabla de Hechos.dtsx</Name>
-      <LastWriteTime>2024-06-12T21:36:32.1113394Z</LastWriteTime>
+      <LastWriteTime>2024-06-17T22:28:26.4700667Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
